@@ -3,9 +3,10 @@
 ## Here you are my driver list.
 
 * AAT - Multirooom PMR-x Models
-* Absolute - Multiroom NX-xx Models 
+* Absolute - Multiroom NX-xx Models (free)
 * AMCP - Multiroom MR-x e MRX-x Models
 * Controlart - Light/Shades Solutions
+* Control iD - Biometric reader
 * Xcene - Keypads
 
 To get your license key, please send me the Processor's Mac Address.
