@@ -1,8 +1,6 @@
----
-title: Controlart Driver
----
 
 # Controlart 
+
 Driver de controle para mdulos sem fio xBus e Módulos cabeados.
 -Funcionalidades:
     - Controle e Feedback dos modulos xBus Sem fio:
@@ -17,3 +15,5 @@ Driver de controle para mdulos sem fio xBus e Módulos cabeados.
 Valor R$200,00
 💳 Pix ```00020126790014BR.GOV.BCB.PIX0111329227378100242Licenca Driver Controlart - MacAddress XP□5204000053039865406200.005802BR5925FLAVIO MATIOLI DE CARVALH6009SAO PAULO622605227gCQQ2eAx60AsXdRVBdkbR630450D4```
 [📥 versão 0.11](https://github.com/Matioliflavio/RTI-Drivers/raw/master/ControlArt%20v0.9.rtidriver)
+
+[◀BACK](https://matioliflavio.github.io/RTI-Drivers)
