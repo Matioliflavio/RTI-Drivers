@@ -37,7 +37,7 @@ Driver de controle para amplificadores multiroom AMCP.
 
 ## [Keypad Xcene](https://matioliflavio.github.io/RTI-Drivers)<!--/Xcene.html)--> ⌨️
 
-Driver de controle keypads Xcene. **Gratis**
+Driver de controle keypads Xcene. **Gratis**  
 [📺 Como configurar](https://youtu.be/aVJv_6ff9MQ)  
 [📥versão 1.02](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Xcene%20Keypad%20V1.02.rtidriver)  
 
