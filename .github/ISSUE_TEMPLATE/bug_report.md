@@ -1,6 +1,6 @@
 ---
-name: 
-about: Create a report to help us improve
+name: Relatorio de Erro
+about: Envie um relatorio para ajudar a melhorar o Driver
 title: ''
 labels: ''
 assignees: ''
@@ -26,5 +26,6 @@ Se possivel, adicione capturas da sua tela ou fotos.
 **Sistema (Complete as seguintes informações):**
  - Modelo da XP 
  - Firmware da XP
+ - Driver em questão
  - Versão do Driver
 
