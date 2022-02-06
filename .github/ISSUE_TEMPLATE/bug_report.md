@@ -1,5 +1,5 @@
 ---
-name: Bug report
+name: 
 about: Create a report to help us improve
 title: ''
 labels: ''
@@ -7,27 +7,24 @@ assignees: ''
 
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+**Descreva o problema**
+Uma descrição clara e concisa do problema e seu comportamento.
 
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+**Para Reproduzir**
+Passos para reproduzir o problema:
+1. Abra '...'
+2. Quando eu clico em '....'
+3. Ao iniciar '....'
+4. Então o erro acontece
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+**Comportamentoesperado**
+Descreva o que era esperado acontecer.
 
 **Screenshots**
-If applicable, add screenshots to help explain your problem.
+Se possivel, adicione capturas da sua tela ou fotos.
 
-**System (please complete the following information):**
- - XP type
- - XP Firmware
- - Driver Version
- - Device Firmware Version
+**Sistema (Complete as seguintes informações):**
+ - Modelo da XP 
+ - Firmware da XP
+ - Versão do Driver
 
-**Additional context**
-Add any other context about the problem here.
