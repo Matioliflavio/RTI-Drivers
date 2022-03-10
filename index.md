@@ -10,6 +10,12 @@ Driver de controle para mdulos sem fio xBus e Módulos cabeados.
 [📥versão 0.11](https://github.com/Matioliflavio/RTI-Drivers/raw/master/ControlArt%20v0.11.rtidriver)  
 
 
+## 🆕[AudioCast](https://matioliflavio.github.io/RTI-Drivers) 📻 🆕
+
+Driver para Stream Players baseados no app AudioCast. Não funciona com ID9.
+[📥versão 1.0](https://github.com/Matioliflavio/RTI-Drivers/raw/master/AudioCast%20v1.0.rtidriver)  
+
+
 ## [Control iD](https://matioliflavio.github.io/RTI-Drivers)<!--/ControliD.html)--> 👍
 
 Driver de controle para leitores biometricos / controle de acesso.  
