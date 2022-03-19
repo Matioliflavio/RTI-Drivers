@@ -4,8 +4,7 @@
 # Lista de Drivers
 
 ## [ControlArt](https://github.com/Matioliflavio/RTI-Drivers/raw/master/ControlArt%20v0.11.rtidriver)<!--/Controlart.html)--> 💡
-
-![img](https://raw.githubusercontent.com/Matioliflavio/RTI-Drivers/master//Images/Controlart.png)  
+ 
 Driver de controle para mdulos sem fio xBus e Módulos cabeados.  
 [📃 Documentação](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Documenta%C3%A7%C3%A3o/ControlArt.pdf)  
 [📺 Como configurar](https://youtu.be/4LRs-2Ro52w)  
