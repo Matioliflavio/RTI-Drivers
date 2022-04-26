@@ -10,12 +10,20 @@ Driver de controle para mdulos sem fio xBus e Módulos cabeados.
 [📃 Documentação](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Documenta%C3%A7%C3%A3o/ControlArt.pdf)  
 [📺 Como configurar](https://youtu.be/4LRs-2Ro52w)  
 [📥versão 0.12](https://github.com/Matioliflavio/RTI-Drivers/raw/master/ControlArt%20v0.12.rtidriver)  
-  
+    
 
 <!--AudioCast-->
 ## 🆕[AudioCast](https://github.com/Matioliflavio/RTI-Drivers/raw/master/AudioCast%20v1.0.rtidriver) 📻 🆕
 
 Driver para Stream Players baseados no app AudioCast. Não funciona com ID9.  
+Players compatíveis:  
+- AAT [AC1](https://aataudio.com.br/audio-streaming/aat-audiocast-ac-1/) [AC2](https://aataudio.com.br/audio-streaming/aat-audiocast-ac-2-g2/) [PMR-9](https://aataudio.com.br/multirooms/aat-pmr-9/) [PMR-10](https://aataudio.com.br/multirooms/aat-pmr-10/) [PMR-11](https://aataudio.com.br/multirooms/aat-pmr-11/) [PMR-12](https://aataudio.com.br/multirooms/aat-pmr-12/) [PMR-13](https://aataudio.com.br/multirooms/aat-pmr-13/)  
+- Arylic [Todos](https://www.arylic.com/)  
+- AudioCast [M5](https://audiocast.io/)  
+- iEast [SoundStream](https://www.ieast.net/eng/products/soundstream/) [Stream Pro](https://www.ieast.net/eng/products/stream-pro/) [StreamAmp AM160](https://www.ieast.net/eng/products/streamamp-am160/) [StreamAmp Amp i50B](https://www.ieast.net/eng/products/streamamp-amp-i50b/)  
+- Loud [WSR-4 WiFi](https://www.loudaudio.com.br/produto/receptor-wsr-4-wifi) [APL-250 WSR](https://www.loudaudio.com.br)  
+- Savage [Stream Pro](https://www.grsavage.com.br/streampro)  
+- SoundSmart [SS-W60](http://www.soundsmartbr.com/product/ss-wa60/) [SS-SA20](http://www.soundsmartbr.com/product/ss-sa20/) [SS-SE10](http://www.soundsmartbr.com/product/ss-se10/)  
 [📃 Documentação](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Documenta%C3%A7%C3%A3o/Audiocast.pdf)  
 [📥versão 1.0](https://github.com/Matioliflavio/RTI-Drivers/raw/master/AudioCast%20v1.0.rtidriver)    
   
