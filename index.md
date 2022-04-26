@@ -13,7 +13,7 @@ Driver de controle para mdulos sem fio xBus e Módulos cabeados.
     
 
 <!--AudioCast-->
-## 🆕[AudioCast](https://github.com/Matioliflavio/RTI-Drivers/raw/master/AudioCast%20v1.0.rtidriver) 📻 🆕
+## [AudioCast](https://github.com/Matioliflavio/RTI-Drivers/raw/master/AudioCast%20v1.0.rtidriver) 📻 🆕
 
 Driver para Stream Players baseados no app AudioCast. Não funciona com ID9.  
 Players compatíveis:
@@ -50,7 +50,7 @@ Driver de controle para amplificadores multiroom AAT.
 ## [Absolute NX-xx](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Absolute%20NX-xx%20v1.01.rtidriver) 🎶  
 
 Driver de controle para amplificadores multiroom Absolute. **Gratis**  
-[📃 Documentação]()https://github.com/Matioliflavio/RTI-Drivers/raw/master/Documenta%C3%A7%C3%A3o/Absolute%20NX-x.pdf
+[📃 Documentação](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Documenta%C3%A7%C3%A3o/Absolute%20NX-x.pdf)  
 [📥versão 1.01](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Absolute%20NX-xx%20v1.01.rtidriver)  
 
 
