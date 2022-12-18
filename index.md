@@ -40,11 +40,11 @@ Driver de controle para leitores biometricos / controle de acesso.
   
 
 <!--/AAT.html)-->
-## [AAT PMR-x](https://github.com/Matioliflavio/RTI-Drivers/raw/master/AAT%20PMR-x%20V1.03.rtidriver) 🎶
+## [AAT PMR-x](https://github.com/Matioliflavio/RTI-Drivers/raw/master/AAT%20PMR-x%20V1.04.rtidriver) 🎶
 
 Driver de controle para amplificadores multiroom AAT.  
 [📃 Documentação](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Documenta%C3%A7%C3%A3o/AAT%20PMR-x.pdf)  
-[📥versão 1.03](https://github.com/Matioliflavio/RTI-Drivers/raw/master/AAT%20PMR-x%20V1.03.rtidriver)    
+[📥versão 1.04](https://github.com/Matioliflavio/RTI-Drivers/raw/master/AAT%20PMR-x%20V1.04.rtidriver)    
   
 
 <!--/Absolute.html)-->
