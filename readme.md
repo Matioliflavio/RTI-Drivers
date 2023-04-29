@@ -4,9 +4,11 @@
 
 * AAT - Multirooom PMR-x Models
 * Absolute - Multiroom NX-xx Models (free)
+* AudioCast - Music Streamer
 * AMCP - Multiroom MR-x e MRX-x Models
 * Controlart - Light/Shades Solutions
-* Control iD - Biometric reader
+* Control iD - Biometric reader 
+* MolSmart - Load Control
 * Xcene - Keypads
 
 To get your license key, please send me the Processor's Mac Address.
