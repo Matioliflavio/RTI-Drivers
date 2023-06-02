@@ -21,15 +21,15 @@ Driver de controle para mdulos 8ch, 16ch e 32ch.
 
 
 <!--SoundSmart-->
-## [SoundSmart](https://github.com/Matioliflavio/RTI-Drivers/raw/master/SoundSmart%20v1.0.rtidriver) 📻 
+## [SoundSmart](https://github.com/Matioliflavio/RTI-Drivers/raw/master/SoundSmart%20v1.1.rtidriver) 📻 
 
 Driver para Stream Players da marca SoundSmart. Não funciona com ID9.  
 Players compatíveis: [SS-WA60](http://www.soundsmartbr.com/product/ss-wa60/), [SS-SA20](http://www.soundsmartbr.com/product/ss-sa20/), [SS-SE10](http://www.soundsmartbr.com/product/ss-se10/) e [SS-SS50](https://www.soundsmartbr.com/produto/ss-ss50/)  
 [📃 Documentação](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Documenta%C3%A7%C3%A3o/SoundSmart.pdf)  
-[📥versão 1.0](https://github.com/Matioliflavio/RTI-Drivers/raw/master/SoundSmart%20v1.0.rtidriver)  
+[📥versão 1.1](https://github.com/Matioliflavio/RTI-Drivers/raw/master/SoundSmart%20v1.1.rtidriver)  
 
 <!--AudioCast-->
-## [AudioCast](https://github.com/Matioliflavio/RTI-Drivers/raw/master/AudioCast%20v1.0.rtidriver) 📻 
+## [AudioCast](https://github.com/Matioliflavio/RTI-Drivers/raw/master/AudioCast%20v1.1.rtidriver) 📻 
 
 Driver para Stream Players baseados no app AudioCast. Não funciona com ID9.  
 Players compatíveis:
@@ -42,7 +42,7 @@ Players compatíveis:
 - SoundSmart: [SS-W60](http://www.soundsmartbr.com/product/ss-wa60/), [SS-SA20](http://www.soundsmartbr.com/product/ss-sa20/), [SS-SE10](http://www.soundsmartbr.com/product/ss-se10/)  
   
 [📃 Documentação](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Documenta%C3%A7%C3%A3o/Audiocast.pdf)  
-[📥versão 1.0](https://github.com/Matioliflavio/RTI-Drivers/raw/master/AudioCast%20v1.0.rtidriver)    
+[📥versão 1.1](https://github.com/Matioliflavio/RTI-Drivers/raw/master/AudioCast%20v1.1.rtidriver)    
   
 
 <!--/ControliD.html)-->
