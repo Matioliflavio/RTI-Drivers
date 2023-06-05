@@ -1,8 +1,8 @@
-![|300](https://raw.githubusercontent.com/Matioliflavio/RTI-Drivers/master/RTIDriver3rdParty.png)
+![](https://raw.githubusercontent.com/Matioliflavio/RTI-Drivers/master/RTIDriver3rdParty.png)
 
 
 <!--/Controlart.html)-->
-# [ControlArt](https://github.com/Matioliflavio/RTI-Drivers/raw/master/ControlArt%20v0.21.rtidriver) 💡
+# ControlArt 💡
 [![|250](./Images/ControlArt.png)](https://github.com/Matioliflavio/RTI-Drivers/raw/master/ControlArt%20v0.21.rtidriver)
  
 Driver de controle para mdulos sem fio xBus e Módulos cabeados.  
