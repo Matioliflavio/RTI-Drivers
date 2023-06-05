@@ -1,4 +1,4 @@
-![img](https://raw.githubusercontent.com/Matioliflavio/RTI-Drivers/master/RTIDriver3rdParty.png)
+![img|300](https://raw.githubusercontent.com/Matioliflavio/RTI-Drivers/master/RTIDriver3rdParty.png)
 
 
 <!--/Controlart.html)-->
@@ -93,6 +93,7 @@ Driver de controle keypads Xcene. **Gratis**
 [📺 Como configurar](https://youtu.be/aVJv_6ff9MQ)  
 [📥versão 1.02](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Xcene%20Keypad%20V1.02.rtidriver)  
 
+---  
 
 Para obter sua licença, entre em contato matioliflavio(arroba)gmail(.)com.  
 
