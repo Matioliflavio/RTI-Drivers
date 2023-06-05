@@ -16,6 +16,7 @@ Driver de controle para mdulos sem fio xBus e Módulos cabeados.
 ---  
 <!--/MolSmart.html)-->
 ## [MolSmart](https://github.com/Matioliflavio/RTI-Drivers/raw/master/MolSmart%20v1.0.rtidriver) 💡
+[![|250](./Images/MolSmart.png)](https://github.com/Matioliflavio/RTI-Drivers/raw/master/MolSmart%20v1.0.rtidriver)
  
 Driver de controle para mdulos 8ch, 16ch e 32ch.  
 [📃 Documentação](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Documenta%C3%A7%C3%A3o/MolSmart.pdf)  
@@ -24,6 +25,7 @@ Driver de controle para mdulos 8ch, 16ch e 32ch.
 
 <!--SoundSmart-->
 ## [SoundSmart](https://github.com/Matioliflavio/RTI-Drivers/raw/master/SoundSmart%20v1.1.rtidriver) 📻 
+[![|250](./Images/SoundSmart.png)](https://github.com/Matioliflavio/RTI-Drivers/raw/master/SoundSmart%20v1.1.rtidriver)
 
 Driver para Stream Players da marca SoundSmart. Não funciona com ID9.  
 Players compatíveis: [SS-WA60](http://www.soundsmartbr.com/product/ss-wa60/), [SS-SA20](http://www.soundsmartbr.com/product/ss-sa20/), [SS-SE10](http://www.soundsmartbr.com/product/ss-se10/) e [SS-SS50](https://www.soundsmartbr.com/produto/ss-ss50/)  
@@ -49,6 +51,7 @@ Players compatíveis:
 
 <!--/ControliD.html)-->
 ## [Control iD](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Control_ID%20v1.0.rtidriver) 👍
+[![|250](./Images/ControlId.png)](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Control_ID%20v1.0.rtidriver)
 
 Driver de controle para leitores biometricos / controle de acesso.  
 [📃 Documentação](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Documenta%C3%A7%C3%A3o/Control%20iD.pdf)  
@@ -58,6 +61,7 @@ Driver de controle para leitores biometricos / controle de acesso.
 
 <!--/AAT.html)-->
 ## [AAT PMR-x](https://github.com/Matioliflavio/RTI-Drivers/raw/master/AAT%20PMR-x%20V1.04.rtidriver) 🎶
+[![|250](./Images/PMR-x.png)](https://github.com/Matioliflavio/RTI-Drivers/raw/master/AAT%20PMR-x%20V1.04.rtidriver)
 
 Driver de controle para amplificadores multiroom AAT.  
 [📃 Documentação](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Documenta%C3%A7%C3%A3o/AAT%20PMR-x.pdf)  
@@ -65,7 +69,8 @@ Driver de controle para amplificadores multiroom AAT.
   
 
 <!--/Absolute.html)-->
-## 🆓[Absolute NX-xx](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Absolute%20NX-xx%20v1.30.rtidriver) 🎶  
+## 🆓[Absolute NX-xx](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Absolute%20NX-xx%20v1.30.rtidriver) 🎶
+[![|250](./Images/NXx.png)](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Absolute%20NX-xx%20v1.30.rtidriver)
 
 Driver de controle para amplificadores multiroom Absolute. **Gratis**  
 [📃 Documentação](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Documenta%C3%A7%C3%A3o/Absolute%20NX-x.pdf)  
@@ -73,7 +78,8 @@ Driver de controle para amplificadores multiroom Absolute. **Gratis**
 
 
 <!--/AMCP.html)-->
-## 🆓[AMCP MR / MRX](https://github.com/Matioliflavio/RTI-Drivers/raw/master/AMCP%20-%20MR-MRX%20Series%20v1.00.rtidriver) 🎶
+## 🆓[AMCP MR / MRX](https://github.com/Matioliflavio/RTI-Drivers/raw/master/AMCP%20-%20MR-MRX%20Series%20v1.1.rtidriver) 🎶
+[![|250](./Images/AMCP.png)](https://github.com/Matioliflavio/RTI-Drivers/raw/master/AMCP%20-%20MR-MRX%20Series%20v1.1.rtidriver)
 
 Driver de controle para amplificadores multiroom AMCP.  **Gratis**  
 [📃 Documentação](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Documenta%C3%A7%C3%A3o/AMCP%20MR%20MRX.pdf)  
