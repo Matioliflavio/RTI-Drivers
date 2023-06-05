@@ -57,25 +57,25 @@ Driver de controle para leitores biometricos / controle de acesso.
 <!--/AAT.html)-->
 ## [AAT PMR-x](https://github.com/Matioliflavio/RTI-Drivers/raw/master/AAT%20PMR-x%20V1.04.rtidriver) 🎶
 
-Driver de controle para amplificadores multiroom AAT.  
+Driver de controle para amplificadores multiroom AAT.
 [📃 Documentação](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Documenta%C3%A7%C3%A3o/AAT%20PMR-x.pdf)  
 [📥versão 1.04](https://github.com/Matioliflavio/RTI-Drivers/raw/master/AAT%20PMR-x%20V1.04.rtidriver)    
   
 
 <!--/Absolute.html)-->
-## [Absolute NX-xx](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Absolute%20NX-xx%20v1.01.rtidriver) 🎶  
+## [Absolute NX-xx](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Absolute%20NX-xx%20v1.30.rtidriver) 🎶  
 
 Driver de controle para amplificadores multiroom Absolute. **Gratis**  
 [📃 Documentação](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Documenta%C3%A7%C3%A3o/Absolute%20NX-x.pdf)  
-[📥versão 1.01](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Absolute%20NX-xx%20v1.01.rtidriver)  
+[📥versão 1.30](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Absolute%20NX-xx%20v1.30.rtidriver)  
 
 
 <!--/AMCP.html)-->
 ## [AMCP MR / MRX](https://github.com/Matioliflavio/RTI-Drivers/raw/master/AMCP%20-%20MR-MRX%20Series%20v1.00.rtidriver) 🎶
 
-Driver de controle para amplificadores multiroom AMCP.  
+Driver de controle para amplificadores multiroom AMCP.  **Gratis**
 [📃 Documentação](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Documenta%C3%A7%C3%A3o/AMCP%20MR%20MRX.pdf)  
-[📥versão 1.0](https://github.com/Matioliflavio/RTI-Drivers/raw/master/AMCP%20-%20MR-MRX%20Series%20v1.00.rtidriver)  
+[📥versão 1.1](https://github.com/Matioliflavio/RTI-Drivers/raw/master/AMCP%20-%20MR-MRX%20Series%20v1.1.rtidriver)  
 
 
 <!--/Xcene.html)-->
