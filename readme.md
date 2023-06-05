@@ -27,7 +27,7 @@ Driver de controle para mdulos 8ch, 16ch e 32ch.
 # [SoundSmart](https://github.com/Matioliflavio/RTI-Drivers/raw/master/SoundSmart%20v1.1.rtidriver) 📻 
 [![|250](./Images/SoundSmart.png)](https://github.com/Matioliflavio/RTI-Drivers/raw/master/SoundSmart%20v1.1.rtidriver)
 
-Driver para Stream Players da marca SoundSmart. Não funciona com ID9.  
+Driver para Stream Players da marca SoundSmart. Feedback completo da musica em execução com capa do album. Não funciona com ID9.  
 Players compatíveis: [SS-WA60](http://www.soundsmartbr.com/product/ss-wa60/), [SS-SA20](http://www.soundsmartbr.com/product/ss-sa20/), [SS-SE10](http://www.soundsmartbr.com/product/ss-se10/) e [SS-SS50](https://www.soundsmartbr.com/produto/ss-ss50/)  
 [📃 Documentação](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Documenta%C3%A7%C3%A3o/SoundSmart.pdf)  
 [📥versão 1.1](https://github.com/Matioliflavio/RTI-Drivers/raw/master/SoundSmart%20v1.1.rtidriver)  
@@ -37,7 +37,7 @@ Players compatíveis: [SS-WA60](http://www.soundsmartbr.com/product/ss-wa60/), [
 # [AudioCast](https://github.com/Matioliflavio/RTI-Drivers/raw/master/AudioCast%20v1.1.rtidriver) 📻 
 [![|250](./Images/AudioCast.png)](https://github.com/Matioliflavio/RTI-Drivers/raw/master/AudioCast%20v1.1.rtidriver)
 
-Driver para Stream Players baseados no app AudioCast. Não funciona com ID9.  
+Driver para Stream Players baseados no app AudioCast. Feedback completo da musica em execução com capa do album. Não funciona com ID9.  
 Players compatíveis:
 - AAT: [AC1](https://aataudio.com.br/audio-streaming/aat-audiocast-ac-1/), [AC2](https://aataudio.com.br/audio-streaming/aat-audiocast-ac-2-g2/), [PMR-9](https://aataudio.com.br/multirooms/aat-pmr-9/), [PMR-10](https://aataudio.com.br/multirooms/aat-pmr-10/), [PMR-11](https://aataudio.com.br/multirooms/aat-pmr-11/), [PMR-12](https://aataudio.com.br/multirooms/aat-pmr-12/), [PMR-13](https://aataudio.com.br/multirooms/aat-pmr-13/)  
 - Arylic: [Todos](https://www.arylic.com/)  
