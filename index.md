@@ -63,7 +63,7 @@ Driver de controle para amplificadores multiroom AAT.
   
 
 <!--/Absolute.html)-->
-## [Absolute NX-xx](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Absolute%20NX-xx%20v1.30.rtidriver) 🎶  
+## 🆓[Absolute NX-xx](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Absolute%20NX-xx%20v1.30.rtidriver) 🎶  
 
 Driver de controle para amplificadores multiroom Absolute. **Gratis**  
 [📃 Documentação](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Documenta%C3%A7%C3%A3o/Absolute%20NX-x.pdf)  
@@ -71,15 +71,15 @@ Driver de controle para amplificadores multiroom Absolute. **Gratis**
 
 
 <!--/AMCP.html)-->
-## [AMCP MR / MRX](https://github.com/Matioliflavio/RTI-Drivers/raw/master/AMCP%20-%20MR-MRX%20Series%20v1.00.rtidriver) 🎶
+## 🆓[AMCP MR / MRX](https://github.com/Matioliflavio/RTI-Drivers/raw/master/AMCP%20-%20MR-MRX%20Series%20v1.00.rtidriver) 🎶
 
-Driver de controle para amplificadores multiroom AMCP.  **Gratis**
+Driver de controle para amplificadores multiroom AMCP.  **Gratis**  
 [📃 Documentação](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Documenta%C3%A7%C3%A3o/AMCP%20MR%20MRX.pdf)  
 [📥versão 1.1](https://github.com/Matioliflavio/RTI-Drivers/raw/master/AMCP%20-%20MR-MRX%20Series%20v1.1.rtidriver)  
 
 
 <!--/Xcene.html)-->
-## [Keypad Xcene](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Xcene%20Keypad%20V1.02.rtidriver) ⌨️
+## 🆓[Keypad Xcene](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Xcene%20Keypad%20V1.02.rtidriver) ⌨️
 
 Driver de controle keypads Xcene. **Gratis**  
 [📃 Documentação](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Documenta%C3%A7%C3%A3o/Xcene%20Keypad.pdf)  
