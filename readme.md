@@ -35,6 +35,7 @@ Players compatíveis: [SS-WA60](http://www.soundsmartbr.com/product/ss-wa60/), [
 ---  
 <!--AudioCast-->
 # [AudioCast](https://github.com/Matioliflavio/RTI-Drivers/raw/master/AudioCast%20v1.1.rtidriver) 📻 
+[![|250](./Images/AudioCast.png)](https://github.com/Matioliflavio/RTI-Drivers/raw/master/AudioCast%20v1.1.rtidriver)
 
 Driver para Stream Players baseados no app AudioCast. Não funciona com ID9.  
 Players compatíveis:
@@ -44,7 +45,6 @@ Players compatíveis:
 - iEast: [SoundStream](https://www.ieast.net/eng/products/soundstream/), [Stream Pro](https://www.ieast.net/eng/products/stream-pro/), [StreamAmp AM160](https://www.ieast.net/eng/products/streamamp-am160/), [StreamAmp Amp i50B](https://www.ieast.net/eng/products/streamamp-amp-i50b/)  
 - Loud: [WSR-4 WiFi](https://www.loudaudio.com.br/produto/receptor-wsr-4-wifi), [APL-250 WSR](https://www.loudaudio.com.br)  
 - Savage: [Stream Pro](https://www.grsavage.com.br/streampro)  
-- SoundSmart: [SS-W60](http://www.soundsmartbr.com/product/ss-wa60/), [SS-SA20](http://www.soundsmartbr.com/product/ss-sa20/), [SS-SE10](http://www.soundsmartbr.com/product/ss-se10/)  
   
 [📃 Documentação](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Documenta%C3%A7%C3%A3o/Audiocast.pdf)  
 [📥versão 1.1](https://github.com/Matioliflavio/RTI-Drivers/raw/master/AudioCast%20v1.1.rtidriver)    
