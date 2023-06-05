@@ -1,4 +1,4 @@
-![img|300](https://raw.githubusercontent.com/Matioliflavio/RTI-Drivers/master/RTIDriver3rdParty.png)
+![|300](https://raw.githubusercontent.com/Matioliflavio/RTI-Drivers/master/RTIDriver3rdParty.png)
 
 
 <!--/Controlart.html)-->

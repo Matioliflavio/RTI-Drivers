@@ -97,7 +97,7 @@ Driver de controle keypads Xcene. **Gratis**
 
 
 Para obter sua licença, entre em contato matioliflavio(arroba)gmail(.)com.  
-Licenças gratuitas, envie o mac address da processadora e o driver desejado  
+
 
 
 <!--
