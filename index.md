@@ -13,7 +13,7 @@ Driver de controle para mdulos sem fio xBus e Módulos cabeados.
     
 ---  
 <!--/MolSmart.html)-->
-# [MolSmart](https://github.com/Matioliflavio/RTI-Drivers/raw/master/MolSmart%20v1.0.rtidriver) 💡
+# MolSmart 💡
 [![|250](./Images/MolSmart.png)](https://github.com/Matioliflavio/RTI-Drivers/raw/master/MolSmart%20v1.0.rtidriver)
  
 Driver de controle para mdulos 8ch, 16ch e 32ch.  
@@ -22,7 +22,7 @@ Driver de controle para mdulos 8ch, 16ch e 32ch.
 
 ---  
 <!--SoundSmart-->
-# [SoundSmart](https://github.com/Matioliflavio/RTI-Drivers/raw/master/SoundSmart%20v1.1.rtidriver) 📻 
+# SoundSmart 📻 
 [![|250](./Images/SoundSmart.png)](https://github.com/Matioliflavio/RTI-Drivers/raw/master/SoundSmart%20v1.1.rtidriver)
 
 Driver para Stream Players da marca SoundSmart. Feedback completo da musica em execução com capa do album. Não funciona com ID9.  
@@ -32,7 +32,7 @@ Players compatíveis: [SS-WA60](http://www.soundsmartbr.com/product/ss-wa60/), [
 
 ---  
 <!--AudioCast-->
-# [AudioCast](https://github.com/Matioliflavio/RTI-Drivers/raw/master/AudioCast%20v1.1.rtidriver) 📻 
+# AudioCast 📻 
 [![|250](./Images/AudioCast.png)](https://github.com/Matioliflavio/RTI-Drivers/raw/master/AudioCast%20v1.1.rtidriver)
 
 Driver para Stream Players baseados no app AudioCast. Feedback completo da musica em execução com capa do album. Não funciona com ID9.  
@@ -49,7 +49,7 @@ Players compatíveis:
   
 ---  
 <!--/ControliD.html)-->
-# [Control iD](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Control_ID%20v1.0.rtidriver) 👍
+# Control iD 👍
 [![|250](./Images/ControlId.png)](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Control_ID%20v1.0.rtidriver)
 
 Driver de controle para leitores biometricos / controle de acesso.  
@@ -59,7 +59,7 @@ Driver de controle para leitores biometricos / controle de acesso.
   
 ---  
 <!--/AAT.html)-->
-# [AAT PMR-x](https://github.com/Matioliflavio/RTI-Drivers/raw/master/AAT%20PMR-x%20V1.04.rtidriver) 🎶
+# AAT PMR-x 🎶
 [![|250](./Images/PMR-x.png)](https://github.com/Matioliflavio/RTI-Drivers/raw/master/AAT%20PMR-x%20V1.04.rtidriver)
 
 Driver de controle para amplificadores multiroom AAT.  
@@ -68,7 +68,7 @@ Driver de controle para amplificadores multiroom AAT.
   
 ---  
 <!--/Absolute.html)-->
-# 🆓[Absolute NX-xx](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Absolute%20NX-xx%20v1.30.rtidriver) 🎶
+# 🆓 Absolute NX-xx 🎶
 [![|250](./Images/NXx.png)](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Absolute%20NX-xx%20v1.30.rtidriver)
 
 Driver de controle para amplificadores multiroom Absolute. **Gratis**  
@@ -77,7 +77,7 @@ Driver de controle para amplificadores multiroom Absolute. **Gratis**
 
 ---  
 <!--/AMCP.html)-->
-# 🆓[AMCP MR / MRX](https://github.com/Matioliflavio/RTI-Drivers/raw/master/AMCP%20-%20MR-MRX%20Series%20v1.1.rtidriver) 🎶
+# 🆓 AMCP MR / MRX 🎶
 [![|250](./Images/AMCP.png)](https://github.com/Matioliflavio/RTI-Drivers/raw/master/AMCP%20-%20MR-MRX%20Series%20v1.1.rtidriver)
 
 Driver de controle para amplificadores multiroom AMCP.  **Gratis**  
@@ -86,7 +86,7 @@ Driver de controle para amplificadores multiroom AMCP.  **Gratis**
 
 ---  
 <!--/Xcene.html)-->
-# 🆓[Keypad Xcene](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Xcene%20Keypad%20V1.02.rtidriver) ⌨️
+# 🆓 Keypad Xcene ⌨️
 
 Driver de controle keypads Xcene. **Gratis**  
 [📃 Documentação](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Documenta%C3%A7%C3%A3o/Xcene%20Keypad.pdf)  
