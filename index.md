@@ -84,11 +84,11 @@ Driver de controle para amplificadores multiroom Absolute. **Gratis**
 ---  
 <!--/AMCP.html)-->
 # 🆓 AMCP MR / MRX 🎶
-[![|250](./Images/AMCP.png)](https://github.com/Matioliflavio/RTI-Drivers/raw/master/AMCP%20-%20MR-MRX%20Series%20v1.1.rtidriver)
+[![|250](./Images/AMCP.png)](https://github.com/Matioliflavio/RTI-Drivers/raw/master/AMCP%20-%20MR-MRX%20Series%20v1.2.rtidriver)
 
 Driver de controle para amplificadores multiroom AMCP.  **Gratis**  
 [📃 Documentação](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Documenta%C3%A7%C3%A3o/AMCP%20MR%20MRX.pdf)  
-[📥versão 1.1](https://github.com/Matioliflavio/RTI-Drivers/raw/master/AMCP%20-%20MR-MRX%20Series%20v1.1.rtidriver)  
+[📥versão 1.2](https://github.com/Matioliflavio/RTI-Drivers/raw/master/AMCP%20-%20MR-MRX%20Series%20v1.2.rtidriver)  
 
 ---  
   
