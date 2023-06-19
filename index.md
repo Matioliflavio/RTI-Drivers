@@ -9,7 +9,7 @@ Driver de controle para mdulos sem fio xBus e Módulos cabeados.
 [📃 Documentação](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Documenta%C3%A7%C3%A3o/ControlArt.pdf)  
 [📺 Como configurar](https://youtu.be/4LRs-2Ro52w)  
 [📺 Função Hold na entrada de pulso](https://youtu.be/mfD7mNyFfBk)  
-[📥versão 0.21](https://github.com/Matioliflavio/RTI-Drivers/raw/master/ControlArt%20v0.22.rtidriver)  
+[📥versão 0.22](https://github.com/Matioliflavio/RTI-Drivers/raw/master/ControlArt%20v0.22.rtidriver)  
     
 ---  
   
