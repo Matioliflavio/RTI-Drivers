@@ -15,11 +15,11 @@ Driver de controle para mdulos sem fio xBus e Módulos cabeados.
   
 <!--/MolSmart.html)-->
 # MolSmart 💡
-[![|250](./Images/MolSmart.png)](https://github.com/Matioliflavio/RTI-Drivers/raw/master/MolSmart%20v1.1.rtidriver)
+[![|250](./Images/MolSmart.png)](https://github.com/Matioliflavio/RTI-Drivers/raw/master/MolSmart%20v1.2.rtidriver)
  
 Driver de controle para mdulos 8ch, 16ch e 32ch.  
 [📃 Documentação](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Documenta%C3%A7%C3%A3o/MolSmart.pdf)  
-[📥versão 1.1](https://github.com/Matioliflavio/RTI-Drivers/raw/master/MolSmart%20v1.1.rtidriver) 
+[📥versão 1.2](https://github.com/Matioliflavio/RTI-Drivers/raw/master/MolSmart%20v1.2.rtidriver) 
 
 ---  
   
