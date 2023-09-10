@@ -58,7 +58,7 @@ Players compatíveis:
 
 Driver de controle para leitores biometricos / controle de acesso.  
 [📃 Documentação](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Documenta%C3%A7%C3%A3o/Control%20iD.pdf)  
-[📺 Funcionamento](https://youtu.be/UwRdSBLR4gc)
+[📺 Funcionamento](https://youtu.be/UwRdSBLR4gc)  
 [👨‍💻 Exemplo](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Exemplos/Sample%20Control%20ID.apex)  
 [📥versão 1.2](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Control_ID%20v1.2.rtidriver)      
   
