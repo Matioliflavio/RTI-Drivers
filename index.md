@@ -3,13 +3,13 @@
 
 <!--/Controlart.html)-->
 # ControlArt 💡
-[![|250](./Images/ControlArt.png)](https://github.com/Matioliflavio/RTI-Drivers/raw/master/ControlArt%20v0.26.rtidriver)
+[![|250](./Images/ControlArt.png)](https://github.com/Matioliflavio/RTI-Drivers/raw/master/ControlArt%20v0.28.rtidriver)
  
 Driver de controle para mdulos sem fio xBus e Módulos cabeados.  
 [📃 Documentação](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Documenta%C3%A7%C3%A3o/ControlArt.pdf)  
 [📺 Como configurar](https://youtu.be/4LRs-2Ro52w)  
 [📺 Função Hold na entrada de pulso](https://youtu.be/mfD7mNyFfBk)  
-[📥versão 0.26](https://github.com/Matioliflavio/RTI-Drivers/raw/master/ControlArt%20v0.26.rtidriver)  
+[📥versão 0.28](https://github.com/Matioliflavio/RTI-Drivers/raw/master/ControlArt%20v0.28.rtidriver)  
     
 ---  
   
@@ -56,7 +56,7 @@ Players compatíveis:
 # Control iD 👍📸
 [![|250](./Images/ControlId.png)](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Control_ID%20v1.2.rtidriver)
 
-Driver de controle para leitores biometricos / controle de acesso.  
+Driver de controle para leitores biometricos e faciais / controle de acesso.   
 [📃 Documentação](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Documenta%C3%A7%C3%A3o/Control%20iD.pdf)  
 [📺 Funcionamento](https://youtu.be/UwRdSBLR4gc)  
 [👨‍💻 Exemplo](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Exemplos/Sample%20Control%20ID.apex)  
