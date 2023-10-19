@@ -30,7 +30,7 @@ Driver de controle para mdulos 8ch, 16ch e 32ch.
 Driver para Stream Players da marca SoundSmart. Feedback completo da musica em execução com capa do album. Não funciona com ID9.  
 Players compatíveis: [SS-WA60](http://www.soundsmartbr.com/product/ss-wa60/), [SS-SA20](http://www.soundsmartbr.com/product/ss-sa20/), [SS-SE10](http://www.soundsmartbr.com/product/ss-se10/) e [SS-SS50](https://www.soundsmartbr.com/produto/ss-ss50/)  
 [📃 Documentação](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Documenta%C3%A7%C3%A3o/SoundSmart.pdf)  
-[📥versão 1.1](https://github.com/Matioliflavio/RTI-Drivers/raw/master/SoundSmart%20v1.2.rtidriver)  
+[📥versão 1.2](https://github.com/Matioliflavio/RTI-Drivers/raw/master/SoundSmart%20v1.2.rtidriver)  
 
 ---  
   
@@ -48,7 +48,7 @@ Players compatíveis:
 - Savage: [Stream Pro](https://www.grsavage.com.br/streampro)  
   
 [📃 Documentação](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Documenta%C3%A7%C3%A3o/Audiocast.pdf)  
-[📥versão 1.1](https://github.com/Matioliflavio/RTI-Drivers/raw/master/AudioCast%20v1.2.rtidriver)    
+[📥versão 1.2](https://github.com/Matioliflavio/RTI-Drivers/raw/master/AudioCast%20v1.2.rtidriver)    
   
 ---  
   
