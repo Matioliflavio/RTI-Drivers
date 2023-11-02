@@ -45,8 +45,9 @@ Players compatíveis:
 - AudioCast: [M5](https://audiocast.io/)  
 - iEast: [SoundStream](https://www.ieast.net/eng/products/soundstream/), [Stream Pro](https://www.ieast.net/eng/products/stream-pro/), [StreamAmp AM160](https://www.ieast.net/eng/products/streamamp-am160/), [StreamAmp Amp i50B](https://www.ieast.net/eng/products/streamamp-amp-i50b/)  
 - Loud: [WSR-4 WiFi](https://www.loudaudio.com.br/produto/receptor-wsr-4-wifi), [APL-250 WSR](https://www.loudaudio.com.br)  
-- Savage: [Stream Pro](https://www.grsavage.com.br/streampro)  
-  
+- Savage: [Stream Pro](https://grsavage.com.br/stream-pro/), [SPLwifi](https://grsavage.com.br/linha-spl-wifi/)  
+
+
 [📃 Documentação](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Documenta%C3%A7%C3%A3o/Audiocast.pdf)  
 [📥versão 1.2](https://github.com/Matioliflavio/RTI-Drivers/raw/master/AudioCast%20v1.2.rtidriver)    
   
