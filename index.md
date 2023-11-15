@@ -1,6 +1,16 @@
 ![](https://raw.githubusercontent.com/Matioliflavio/RTI-Drivers/master/RTIDriver3rdParty.png)
 
-
+<!--/Embrace.html)-->
+# Embrace 💡
+[![|250](./Images/Embrace.png)](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Embrace%20v1.0.rtidriver)
+ 
+Driver de controle para sistema Embrace de iluminação e cortinas/persianas.  
+[📃 Documentação](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Documenta%C3%A7%C3%A3o/Embrace.pdf)  
+[👨‍💻 Exemplo](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Exemplos/Embrace.apex)  
+[📥versão 1.0](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Embrace%20v1.0.rtidriver)  
+    
+---  
+  
 <!--/Controlart.html)-->
 # ControlArt 💡
 [![|250](./Images/ControlArt.png)](https://github.com/Matioliflavio/RTI-Drivers/raw/master/ControlArt%20v0.29.rtidriver)
