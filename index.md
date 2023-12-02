@@ -91,6 +91,7 @@ Driver de controle para amplificadores multiroom AAT. **Gratis**
 
 Driver de controle para amplificadores multiroom Absolute. **Gratis**  
 [📃 Documentação](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Documenta%C3%A7%C3%A3o/Absolute%20NX-x.pdf)  
+[👨‍💻 Exemplo](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Exemplos/NX%20Multiroom.apex)  
 [📥versão 1.40](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Absolute%20NX-xx%20v1.40.rtidriver)  
 
 ---  
