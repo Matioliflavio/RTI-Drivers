@@ -87,11 +87,11 @@ Driver de controle para amplificadores multiroom AAT. **Gratis**
   
 <!--/Absolute.html)-->
 # 🆓 Absolute NX-xx 🎶
-[![|250](./Images/NXx.png)](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Absolute%20NX-xx%20v1.30.rtidriver)
+[![|250](./Images/NXx.png)](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Absolute%20NX-xx%20v1.40.rtidriver)
 
 Driver de controle para amplificadores multiroom Absolute. **Gratis**  
 [📃 Documentação](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Documenta%C3%A7%C3%A3o/Absolute%20NX-x.pdf)  
-[📥versão 1.30](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Absolute%20NX-xx%20v1.30.rtidriver)  
+[📥versão 1.40](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Absolute%20NX-xx%20v1.40.rtidriver)  
 
 ---  
 <!--/AMCP.html)-->
