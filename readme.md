@@ -34,7 +34,7 @@ Driver de controle para mdulos 8ch, 16ch e 32ch.
 ---  
   
 <!--/MolSmart-IR-RF.html)-->
-# MolSmart IR-RF Gateway 💡
+# MolSmart IR-RF Gateway 🎛️
 [![|250](./Images/MolSmart-IR-RF.png)](https://github.com/Matioliflavio/RTI-Drivers/raw/master/MolSmart-IR-RF%20v1.0.rtidriver)
  
 Driver de controle para mdulos 8ch, 16ch e 32ch.  
