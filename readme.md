@@ -22,6 +22,16 @@ Driver de controle para mdulos 8ch, 16ch e 32ch.
 [📃 Documentação](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Documenta%C3%A7%C3%A3o/MolSmart.pdf)  
 [📥versão 1.0](https://github.com/Matioliflavio/RTI-Drivers/raw/master/MolSMart%20v1.0.rtidriver) 
 
+    
+---  
+<!--/MolSmart-IR-RF.html)-->
+# [MolSmart-IR-RF](https://github.com/Matioliflavio/RTI-Drivers/raw/master/MolSmart-IR-RF%20v1.0.rtidriver) 💡
+[![|250](./Images/MolSmart-IR-RF.png)](https://github.com/Matioliflavio/RTI-Drivers/raw/master/MolSmart-IR-RF%20v1.0.rtidriver)
+ 
+Driver de controle para gateway IR RF.  
+[📃 Documentação](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Documenta%C3%A7%C3%A3o/MolSmart.pdf)  
+[📥versão 1.0](https://github.com/Matioliflavio/RTI-Drivers/raw/master/MolSMart-IR-RF%20v1.0.rtidriver) 
+
 ---  
 <!--SoundSmart-->
 # [SoundSmart](https://github.com/Matioliflavio/RTI-Drivers/raw/master/SoundSmart%20v1.1.rtidriver) 📻 
