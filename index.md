@@ -25,11 +25,11 @@ Driver de controle para sistema Embrace de iluminação e cortinas/persianas.
   
 <!--/MolSmart.html)-->
 # MolSmart 💡
-[![|250](./Images/MolSmart.png)](https://github.com/Matioliflavio/RTI-Drivers/raw/master/MolSmart%20v1.3.rtidriver)
+[![|250](./Images/MolSmart.png)](https://github.com/Matioliflavio/RTI-Drivers/raw/master/MolSmart%20v1.4.rtidriver)
  
-Driver de controle para mdulos 8ch, 16ch e 32ch.  Drivers
-[📃 Documentação](https://github.com/Matioliflavio/RTI-/raw/master/Documenta%C3%A7%C3%A3o/MolSmart.pdf)  
-[📥versão 1.3](https://github.com/Matioliflavio/RTI-Drivers/raw/master/MolSmart%20v1.3.rtidriver) 
+Driver de controle para mdulos 6 Dimmer, 8ch, 16ch e 32ch.  
+[📃 Documentação](https://docs.google.com/document/d/1Uc_R1vktYjYXj1EV_bmM8lNKdLZ9OP9EYyhzkrWdU0I/edit)  
+[📥versão 1.4](https://github.com/Matioliflavio/RTI-Drivers/raw/master/MolSmart%20v1.4.rtidriver)  
 
 ---  
   
