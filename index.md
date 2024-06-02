@@ -72,6 +72,16 @@ Players compatíveis:
   
 ---  
   
+<!--AlamoPiso Termico-->
+# Álamo Piso Térmico 🌡️♨️ 
+[![|250](./Images/Alamo.png)](https://github.com/Matioliflavio/RTI-Drivers/raw/master/AlamoPisoTermico%20v1.0.rtidriver)
+
+Driver para termostato Wi-Fi e gateway de piso térmico Álamo:    
+[📃 Documentação](https://docs.google.com/document/d/1w2Y-AxJLKYATaiMYrAvIOrqTVScz7efDvLcBRqgn0FQ/edit?usp=sharing)  
+[📥versão 1.0](https://github.com/Matioliflavio/RTI-Drivers/raw/master/AlamoPisoTermico%20v1.0.rtidriver)    
+  
+---  
+  
 <!--/ControliD.html)-->
 # Control iD 👍📸
 [![|250](./Images/ControlId.png)](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Control_ID%20v1.2.rtidriver)
