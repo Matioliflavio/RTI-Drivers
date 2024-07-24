@@ -2,7 +2,8 @@
 
 # Drivers 
 ### Iluminação 💡
-- [ControlArt](#controlart)  
+- [ControlArt](#controlart) 
+<!--- [DKTech](#dktech) -->
 - [Embrace](#embrace) 
 - [MolSmart](#molsmart)
 ### Audio 🎶
@@ -35,15 +36,28 @@ Driver de controle para mdulos sem fio xBus e Módulos cabeados.
     
 ---  
 ---  
-  
+
+<!--/DKTech.html)--
+# <a name="dktech"></a>DKTech-LCK12840 💡
+[![|250](./Images/DKTech-LCK12840.png)](https://github.com/Matioliflavio/RTI-Drivers/raw/master/DKTech-LCK12840%20v1.0.rtidriver)
+ 
+Driver de controle para mdulo LCK12840.  
+[📃 Documentação](https://https://docs.google.com/document/d/19honP19Lr53zx3skiPBnw4x9LjMl6UPIb58FCMRGdvk/)  
+[📥 Versão 0.34](https://github.com/Matioliflavio/RTI-Drivers/raw/master/DKTech-LCK12840%20v1.0.rtidriver)  
+💵 <span style="color:green">_Valor R$250,00_</span> 💵    
+    
+---  
+---   
+
 <!--/Embrace.html)-->
 # <a name="embrace"></a>Embrace 💡
-[![|250](./Images/Embrace.png)](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Embrace%20v1.0.rtidriver)
+[![|250](./Images/Embrace.png)](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Embrace%20v1.1.rtidriver)
  
 Driver de controle para sistema Embrace de iluminação e cortinas/persianas.  
 [📃 Documentação](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Documenta%C3%A7%C3%A3o/Embrace.pdf)  
 [👨‍💻 Exemplo](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Exemplos/Embrace.apex)  
-[📥 Versão 1.0](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Embrace%20v1.0.rtidriver)  
+[📺 Como configurar](https://youtu.be/xKJ6B30fIFg)  
+[📥 Versão 1.1](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Embrace%20v1.1.rtidriver)  
 💵 <span style="color:green">_Valor R$500,00_</span> 💵  
     
 ---  
