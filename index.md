@@ -3,7 +3,7 @@
 # Drivers 
 ### Iluminação 💡
 - [ControlArt](#controlart) 
-<!--- [DKTech](#dktech) -->
+- [DKTech](#dktech) 
 - [Embrace](#embrace) 
 - [MolSmart](#molsmart)
 ### Audio 🎶
