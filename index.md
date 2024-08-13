@@ -53,13 +53,13 @@ Driver de controle para mdulo LCK12840.
 
 <!--/Embrace.html)-->
 # <a name="embrace"></a>Embrace 💡
-[![|250](./Images/Embrace.png)](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Embrace%20v1.1.rtidriver)
+[![|250](./Images/Embrace.png)](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Embrace%20v1.2.rtidriver)
  
 Driver de controle para sistema Embrace de iluminação e cortinas/persianas.  
 [📃 Documentação](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Documenta%C3%A7%C3%A3o/Embrace.pdf)  
 [👨‍💻 Exemplo](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Exemplos/Embrace.apex)  
 [📺 Como configurar](https://youtu.be/xKJ6B30fIFg)  
-[📥 Versão 1.1](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Embrace%20v1.1.rtidriver)  
+[📥 Versão 1.2](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Embrace%20v1.2.rtidriver)  
 💵 <span style="color:green">_Valor R$500,00_</span> 💵  
     
 ---  
