@@ -39,13 +39,13 @@ Driver de controle para mdulos sem fio xBus e Módulos cabeados.
 
 <!--/DKTech.html)-->
 # <a name="dktech"></a>DKTech-LCK12840 💡
-[![|250](./Images/DKTechLCK12840.png)](https://github.com/Matioliflavio/RTI-Drivers/raw/master/DKTech-LCK12840%20v1.1.rtidriver)
+[![|250](./Images/DKTechLCK12840.png)](https://github.com/Matioliflavio/RTI-Drivers/raw/master/DKTech-LCK12840%20v1.2.rtidriver)
  
 Driver de controle para mdulo LCK12840.  
-[📃 Documentação](https://https://docs.google.com/document/d/19honP19Lr53zx3skiPBnw4x9LjMl6UPIb58FCMRGdvk/)  
+[📃 Documentação](https://docs.google.com/document/d/19honP19Lr53zx3skiPBnw4x9LjMl6UPIb58FCMRGdvk/edit?usp=sharing)  
 [📺 Como configurar](https://youtu.be/pH81fFsw0GM)  
 [👨‍💻 Exemplo](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Exemplos/DKTECH.apex)  
-[📥 Versão 1.1](https://github.com/Matioliflavio/RTI-Drivers/raw/master/DKTech-LCK12840%20v1.1.rtidriver)  
+[📥 Versão 1.2](https://github.com/Matioliflavio/RTI-Drivers/raw/master/DKTech-LCK12840%20v1.2.rtidriver)  
 💵 <span style="color:green">_Valor R$250,00_</span> 💵    
     
 ---  
