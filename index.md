@@ -11,6 +11,7 @@
 - [SoundSmart](#soundsmart)
 ### Multiroom 🔈
 - [AAT-PMR-x](#pmr)
+- [Absolute-AudioBridge](#ab)
 - [Absolute-NX-x](#nx)
 - [AMCP](#ampc)
 - [MuxLab-Dante-DSP](#muxlab)
@@ -171,6 +172,19 @@ Driver de controle para amplificadores multiroom AAT. **Gratis**
 [📃 Documentação](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Documenta%C3%A7%C3%A3o/AAT%20PMR-x.pdf)  
 [📥 Versão 1.06](https://github.com/Matioliflavio/RTI-Drivers/raw/master/AAT%20PMR-x%20V1.06.rtidriver)  
 💵 <span style="color:green">_Valor R$0,00_</span> 💵  
+  
+---  
+---  
+  
+<!--/Absolute AudioBridge.html)-->
+# 🆓 <a name="ab"></a>Absolute AudioBridge 🎶
+[![|250](./Images/AudioBridge.png)](https://github.com/Matioliflavio/RTI-Drivers/raw/master/)
+
+Driver de controle para novos amplificadores multiroom Absolute linha AudioBridge. **BETA**  
+[📃 Documentação](https://docs.google.com/document/d/1DyFQLSvNJ0ZnrrAdLgHUKUPW-yaT2KXMNnsSeKvo_PQ/edit?usp=sharing)  
+[👨‍💻 Exemplo](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Exemplos/AudioBridge.apex)  
+[📥 Versão 1.40](https://github.com/Matioliflavio/RTI-Drivers/raw/master/) Entre em contato para download!  
+💵 <span style="color:green">_Valor R$???_</span> 💵  
   
 ---  
 ---  
