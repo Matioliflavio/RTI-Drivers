@@ -183,7 +183,7 @@ Driver de controle para amplificadores multiroom AAT. **Gratis**
 Driver de controle para novos amplificadores multiroom Absolute linha AudioBridge. **BETA**  
 [📃 Documentação](https://docs.google.com/document/d/1DyFQLSvNJ0ZnrrAdLgHUKUPW-yaT2KXMNnsSeKvo_PQ/edit?usp=sharing)  
 [👨‍💻 Exemplo](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Exemplos/AudioBridge.apex)  
-[📥 Versão 1.40](https://github.com/Matioliflavio/RTI-Drivers/raw/master/) Entre em contato para download!  
+[📥 Versão 0.50](https://github.com/Matioliflavio/RTI-Drivers/raw/master/) Entre em contato para download!  
 💵 <span style="color:green">_Valor R$???_</span> 💵  
   
 ---  
