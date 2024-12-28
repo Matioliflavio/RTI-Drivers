@@ -26,13 +26,13 @@
   
 <!--/Controlart.html)-->
 # <a name="controlart"></a>ControlArt 💡
-[![|250](./Images/ControlArt.png)](https://github.com/Matioliflavio/RTI-Drivers/raw/master/ControlArt%20v0.34.rtidriver)
+[![|250](./Images/ControlArt.png)](https://github.com/Matioliflavio/RTI-Drivers/raw/master/ControlArt%20v0.37.rtidriver)
  
 Driver de controle para mdulos sem fio xBus e Módulos cabeados.  
 [📃 Documentação](https://docs.google.com/document/d/1x7njGneO6W4oGCM__tr-wER8Rpgwkz-W38y99eORL5Y/edit?usp=sharing)  
 [📺 Como configurar](https://youtu.be/4LRs-2Ro52w)  
 [📺 Função Hold na entrada de pulso](https://youtu.be/mfD7mNyFfBk)  
-[📥 Versão 0.34](https://github.com/Matioliflavio/RTI-Drivers/raw/master/ControlArt%20v0.34.rtidriver)  
+[📥 Versão 0.37](https://github.com/Matioliflavio/RTI-Drivers/raw/master/ControlArt%20v0.37.rtidriver)  
 💵 <span style="color:green">_Valor R$250,00_</span> 💵    
     
 ---  
@@ -40,13 +40,13 @@ Driver de controle para mdulos sem fio xBus e Módulos cabeados.
 
 <!--/DKTech.html)-->
 # <a name="dktech"></a>DKTech-LCK12840 💡
-[![|250](./Images/DKTechLCK12840.png)](https://github.com/Matioliflavio/RTI-Drivers/raw/master/DKTech-LCK12840%20v1.2.rtidriver)
+[![|250](./Images/DKTechLCK12840.png)](https://github.com/Matioliflavio/RTI-Drivers/raw/master/DKTech-LCK12840%20v1.3.rtidriver)
  
 Driver de controle para mdulo LCK12840.  
 [📃 Documentação](https://docs.google.com/document/d/19honP19Lr53zx3skiPBnw4x9LjMl6UPIb58FCMRGdvk/edit?usp=sharing)  
 [📺 Como configurar](https://youtu.be/pH81fFsw0GM)  
 [👨‍💻 Exemplo](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Exemplos/DKTECH.apex)  
-[📥 Versão 1.2](https://github.com/Matioliflavio/RTI-Drivers/raw/master/DKTech-LCK12840%20v1.2.rtidriver)  
+[📥 Versão 1.3](https://github.com/Matioliflavio/RTI-Drivers/raw/master/DKTech-LCK12840%20v1.3.rtidriver)  
 💵 <span style="color:green">_Valor R$250,00_</span> 💵    
     
 ---  
@@ -159,7 +159,7 @@ Driver de controle para leitores biometricos e faciais / controle de acesso.
 Driver para DSP Dante MuxLab 500556:    
 [📃 Documentação](https://docs.google.com/document/d/1ks6p5pXixNV7KuGRrdY7Xj7ivNzlhZbrNiz5AvqvcQw/edit)  
 [📥 Versão 1.0](https://github.com/Matioliflavio/RTI-Drivers/raw/master/4ch-DSP-500556%20v1.0.rtidriver)  
-💵 <span style="color:green">_Valor R$0,00_</span> 💵  
+💵 <span style="color:green">_Valor R$0,00 Cortesia AvHub_</span> 💵  
   
 ---  
 ---  
@@ -227,7 +227,7 @@ Driver de controle keypads Xcene. **Gratis**
 ---  
   
 
-Para obter sua licença ou requisitar um driver, entre em contato matioliflavio(arroba)gmail(.)com.  
+Para obter sua licença, requisitar um driver ou fazer uma doação, entre em contato matioliflavio(@)gmail(.)com.  
 
 
 
