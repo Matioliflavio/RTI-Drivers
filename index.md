@@ -178,12 +178,12 @@ Driver de controle para amplificadores multiroom AAT. **Gratis**
   
 <!--/Absolute AudioBridge.html)-->
 # 🆓 <a name="ab"></a>Absolute AudioBridge 🎶
-[![|250](./Images/AudioBridge.png)](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Absolute%20AudioBridge%20V1.0.rtidriver)
+[![|250](./Images/AudioBridge.png)](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Absolute%20AudioBridge%20V1.1.rtidriver)
 
 Driver de controle para novos amplificadores multiroom Absolute linha AudioBridge.
 [📃 Documentação](https://docs.google.com/document/d/1DyFQLSvNJ0ZnrrAdLgHUKUPW-yaT2KXMNnsSeKvo_PQ/edit?usp=sharing)  
 [👨‍💻 Exemplo](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Exemplos/AudioBridge.apex)  
-[📥 Versão 1.0](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Absolute%20AudioBridge%20V1.0.rtidriver)  
+[📥 Versão 1.1](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Absolute%20AudioBridge%20V1.1.rtidriver)  
 💵 <span style="color:green">_Valor R$0,00_</span> 💵  
   
 ---  
