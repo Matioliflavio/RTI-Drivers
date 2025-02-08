@@ -26,13 +26,13 @@
   
 <!--/Controlart.html)-->
 # <a name="controlart"></a>ControlArt 💡
-[![|250](./Images/ControlArt.png)](https://github.com/Matioliflavio/RTI-Drivers/raw/master/ControlArt%20v0.37.rtidriver)
+[![|250](./Images/ControlArt.png)](https://github.com/Matioliflavio/RTI-Drivers/raw/master/ControlArt%20v0.38.rtidriver)
  
 Driver de controle para mdulos sem fio xBus e Módulos cabeados.  
 [📃 Documentação](https://docs.google.com/document/d/1x7njGneO6W4oGCM__tr-wER8Rpgwkz-W38y99eORL5Y/edit?usp=sharing)  
 [📺 Como configurar](https://youtu.be/4LRs-2Ro52w)  
 [📺 Função Hold na entrada de pulso](https://youtu.be/mfD7mNyFfBk)  
-[📥 Versão 0.37](https://github.com/Matioliflavio/RTI-Drivers/raw/master/ControlArt%20v0.37.rtidriver)  
+[📥 Versão 0.38](https://github.com/Matioliflavio/RTI-Drivers/raw/master/ControlArt%20v0.38.rtidriver)  
 💵 <span style="color:green">_Valor R$250,00_</span> 💵    
     
 ---  
