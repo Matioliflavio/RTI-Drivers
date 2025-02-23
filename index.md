@@ -16,6 +16,7 @@
 - [AMCP](#ampc)
 - [MuxLab-Dante-DSP](#muxlab)
 ### Automção ⚙️
+- [AAT PWC-8](#pwc)
 - [Álamo-PisoTermico](#alamo)
 - [ControlID](#controlid)
 - [MolSmart-Gateway](#molsmart-gateway)
@@ -119,6 +120,18 @@ Players compatíveis:
 [📃 Documentação](https://docs.google.com/document/d/1bNvperJxdq1a7T6HVSVDgoJeTcgbKZcmRUQZ6gdQHC8/edit?usp=sharing)  
 [📥 Versão 1.3](https://github.com/Matioliflavio/RTI-Drivers/raw/master/AudioCast%20v1.3.rtidriver)  
 💵 <span style="color:green">_Valor R$200,00_</span> 💵  
+  
+---  
+---  
+  
+<!--AAT PWC 8-->
+# <a name="pwc"></a>AAT PWC-8 🔌⚡
+[![|250](./Images/PWC8.png)](https://github.com/Matioliflavio/RTI-Drivers/raw/master/AAT%20PWC-8%20v1.0.rtidriver)
+
+Driver para condicionador de energia AAT PWC-8:    
+[📃 Documentação](https://docs.google.com/document/d/1r4WdChX-ZMmmGgS-J_2r_HDn2xEoQEFFcUUOUas_vhE/edit?usp=sharing)  
+[📥 Versão 1.0](https://github.com/Matioliflavio/RTI-Drivers/raw/master/AAT%20PWC-8%20v1.0.rtidriver)  
+💵 <span style="color:green">_Valor R$100,00_</span> 💵  
   
 ---  
 ---  
