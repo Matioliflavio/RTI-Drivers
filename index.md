@@ -126,10 +126,11 @@ Players compatíveis:
   
 <!--AAT PWC 8-->
 # <a name="pwc"></a>AAT PWC-8 🔌⚡
-[![|250](./Images/PWC8.png)](https://github.com/Matioliflavio/RTI-Drivers/raw/master/AAT%20PWC-8%20v1.0.rtidriver)
+[![|250](./Images/PWC-8.png)](https://github.com/Matioliflavio/RTI-Drivers/raw/master/AAT%20PWC-8%20v1.0.rtidriver)
 
 Driver para condicionador de energia AAT PWC-8:    
 [📃 Documentação](https://docs.google.com/document/d/1r4WdChX-ZMmmGgS-J_2r_HDn2xEoQEFFcUUOUas_vhE/edit?usp=sharing)  
+[👨‍💻 Exemplo](https://github.com/Matioliflavio/RTI-Drivers/raw/master/Exemplos/PWC-8.apex)  
 [📥 Versão 1.0](https://github.com/Matioliflavio/RTI-Drivers/raw/master/AAT%20PWC-8%20v1.0.rtidriver)  
 💵 <span style="color:green">_Valor R$100,00_</span> 💵  
   
