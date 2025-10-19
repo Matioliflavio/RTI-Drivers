@@ -20,7 +20,7 @@
             color: #333;
             font-size: 2.5em;
             text-align: center;
-            margin-top: 5px;
+            margin-top: 0px;
         }
 
         h2 {
@@ -39,12 +39,21 @@
             
         }
 
-        .container {
+        .containerMaster {
             width: 80%;
-            max-width: 800px; /* Adjust to your desired max width */
-            margin: 20px auto;
+            max-width: 1200px;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 360px; /* Adjust to your desired max width */
+            margin: 10px;
             text-align: justify; /* Justify text inside the container */
-            padding: 20px; /* Add padding for spacing inside the container */
+            padding: 5px; /* Add padding for spacing inside the container */
             border: 3px solid #ccc; /* Frame border */
             border-radius: 5px; /* Rounded corners for the frame */
             background-color: #eee; /* Background color inside the frame */
@@ -52,10 +61,10 @@
 
         .container2 {
             width: 70%;
-            max-width: 500px; /* Adjust to your desired max width */
+            max-width: 360px; /* Adjust to your desired max width */
             margin: 20px auto;
             text-align: justify; /* Justify text inside the container */
-            padding: 20px; /* Add padding for spacing inside the container */
+            padding: 10px; /* Add padding for spacing inside the container */
             border: 2px solid #ccc; /* Frame border */
             border-radius: 5px; /* Rounded corners for the frame */
             background-color: #fff; /* Background color inside the frame */
@@ -128,8 +137,40 @@
                 font-size: 1em;
             }
         }
+
+        #navbar {
+            overflow: hidden;
+            background-color: #f9f9f9;
+            border: 2px solid #ccc;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            padding: 10px 10px; /* Large padding which will shrink on scroll (using JS) */
+            transition: 0.4s; /* Adds a transition effect when the padding is decreased */
+            position: fixed; /* Sticky/fixed navbar */
+            width: 100%;
+            height: fit-content;
+            top: 0; /* At the top */
+            z-index: 99;
+        }
+
+        /* Style the navbar links */
+        #navbar a {
+            float: left;
+            color: black;
+            text-align: left;
+            padding: 10px;
+        }
+
+        /* Display some links to the right */
+        #navbar-right {
+            float: center;
+            padding: 10px;
+        }
+
+        
     </style>
-</head>
+   </head>
 
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-KYG9Z1S72L"></script>
@@ -139,403 +180,466 @@
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', 'G-KYG9Z1S72L');
+
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+            document.getElementById("tx").style.fontSize = "25px";
+            document.getElementById("logo").style.width = "150px";
+        } else {
+            document.getElementById("tx").style.fontSize = "55px";
+            document.getElementById("logo").style.width = "350px";
+        }
+    }
+
+    function topFunction() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
     
 </script>
 
 <body>
 
-    <p><img src="https://raw.githubusercontent.com/Matioliflavio/RTI-Drivers/master/Images/RTIDriver3rdParty.png" width="500"></p>
+   <!--
+    <div class="header">
+        <p><img src="https://raw.githubusercontent.com/Matioliflavio/RTI-Drivers/master/Images/RTIDriver3rdParty.png" width="500"></p>
 
-    <h1 id="drivers">RTI Drivers 🇧🇷</h1>
-        <div class="container2">
-            <ul>
-                <h2 id="ilumina-o-">💡 Iluminação 💡</h2>
-                <li><a href="#controlart">ControlArt</a></li>
-                <li><a href="#dktech">DKTech</a></li>
-                <li><a href="#embrace">Embrace</a></li>
-                <li><a href="#molsmart">MolSmart</a></li>
-
-                <h2 id="audio-">🎶 Audio 🎶</h2>
-                <li><a href="#audiocast">AudioCast</a></li>
-                <li><a href="#soundsmart">SoundSmart</a></li>
-
-                <h2 id="multiroom-">🔈 Multiroom 🔈</h2>
-                <li><a href="#pmr">AAT-PMR-x</a></li>
-                <li><a href="#ab">Absolute-AudioBridge</a></li>
-                <li><a href="#nx">Absolute-NX-x</a></li>
-                <li><a href="#ampc">AMCP</a></li>
-                <li><a href="#muxlab">MuxLab-Dante-DSP</a></li>
-
-                <h2 id="autom-o-">⚙️ Automção ⚙️</h2>
-                <li><a href="#pwc">AAT PWC-8</a></li>
-                <li><a href="#alamo">Álamo-PisoTermico</a></li>
-                <li><a href="#controlid">ControliD</a></li>
-                <li><a href="#molsmart-gateway">MolSmart-Gateway</a></li>
-                <li><a href="#xcene">Xcene</a></li>
-            </ul>
+        <h1 id="drivers">RTI Drivers 🇧🇷</h1>
+    </div>
+    -->
+    <div id="navbar">
+        <a >
+            <img id="logo" src="https://raw.githubusercontent.com/Matioliflavio/RTI-Drivers/master/Images/RTIDriver3rdParty.png" />
+        </a>
+        <div id="navbar-right">
+            <a  id="tx">RTI Drivers 🇧🇷</a>
         </div>
+    </div>
+    <br><br><br><br><br><br><br><br><br>
+    <div class="container2">
+        <ul>
+            <h2 id="ilumina-o-">💡 Iluminação 💡</h2>
+            <li><a href="#controlart">ControlArt</a></li>
+            <li><a href="#dktech">DKTech</a></li>
+            <li><a href="#embrace">Embrace</a></li>
+            <li><a href="#molsmart">MolSmart</a></li>
+
+            <h2 id="audio-">🎶 Audio 🎶</h2>
+            <li><a href="#audiocast">AudioCast</a></li>
+            <li><a href="#soundsmart">SoundSmart</a></li>
+
+            <h2 id="multiroom-">🔈 Multiroom 🔈</h2>
+            <li><a href="#pmr">AAT-PMR-x</a></li>
+            <li><a href="#ab">Absolute-AudioBridge</a></li>
+            <li><a href="#nx">Absolute-NX-x</a></li>
+            <li><a href="#ampc">AMCP</a></li>
+            <li><a href="#controlartmr">ControlArt Multiroom</a></li>
+            <li><a href="#muxlab">MuxLab-Dante-DSP</a></li>
+            <li><a href="#waveone">WaveOne</a></li>
+
+            <h2 id="autom-o-">⚙️ Automção ⚙️</h2>
+            <li><a href="#pwc">AAT PWC-8</a></li>
+            <li><a href="#alamo">Álamo-PisoTermico</a></li>
+            <li><a href="#controlid">ControliD</a></li>
+            <li><a href="#molsmart-gateway">MolSmart-Gateway</a></li>
+            <li><a href="#xcene">Xcene</a></li>
+        </ul>
+    </div>
     <hr>
 
     <!--/Controlart.html)-->
-    <div class="container">
-        <h1 id="-a-name-controlart-a-controlart-">
-            <a name="controlart"></a>ControlArt 💡
-        </h1>
-        <hr>
-        <p>
-            <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Drivers/ControlArt%20v0.43.rtidriver">
-                <img src="./Images/ControlArt.png" alt="250">
-            </a>
-        </p>
-        <p>Driver de controle para mdulos sem fio xBus e Módulos cabeados.<br>
-            <a href="https://docs.google.com/document/d/1x7njGneO6W4oGCM__tr-wER8Rpgwkz-W38y99eORL5Y/edit?usp=sharing">📃Documentação</a><br>
-            <a href="https://youtu.be/4LRs-2Ro52w">📺 Como configurar</a><br>
-            <a href="https://youtu.be/mfD7mNyFfBk">📺 Função Hold na entrada de pulso</a><br>
-            <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Drivers/ControlArt%20v0.43.rtidriver">📥 Versão 0.43</a><br>
-        </p>
-        <br/>
-        <H3>ControlArt V2 *BETA*</H3>
-        <p>Nova versão do driver dedicado aos modulos cabeados, recheada de novidades e facilidades. Leia a documentação!<br>
-            <a href="https://docs.google.com/document/d/1o5rdJOgdNMiPCrcL_SZwlcc9PmxuDPQhE6hfp9Fl_Rw/edit?usp=sharing">📃Documentação</a><br>
-            <del><a href="">📺 Como configurar</a></del> *Breve<br/>
-            <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Drivers/ControlArt%20ModulosCabeados%20V0.92.rtidriver">📥Modulos Cabeados Versão Beta 0.92</a><br>
-            <br>
-            <span style="color:green"><em>💵 Valor R$250,00 💵</em></span>
-        </p>
-    </div>
+    <div class="containerMaster">
+        <div class="container">
+            <h1 id="-a-name-controlart-a-controlart-">
+                <a name="controlart"></a>ControlArt 💡
+            </h1>
+            <hr>
+            <p>
+                <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Drivers/ControlArt%20v0.44.rtidriver">
+                    <img src="./Images/ControlArt.png" alt="250">
+                </a>
+            </p>
+            <p>Driver de controle para mdulos sem fio xBus e Módulos cabeados.<br>
+                <a href="https://docs.google.com/document/d/1x7njGneO6W4oGCM__tr-wER8Rpgwkz-W38y99eORL5Y/edit?usp=sharing">📃Documentação</a><br>
+                <a href="https://youtu.be/4LRs-2Ro52w">📺 Como configurar</a><br>
+                <a href="https://youtu.be/mfD7mNyFfBk">📺 Função Hold na entrada de pulso</a><br>
+                <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Drivers/ControlArt%20v0.44.rtidriver">📥 Versão 0.44</a><br>
+            </p>
+            <br/>
+            <H3>ControlArt V2 *BETA*</H3>
+            <p>Nova versão do driver dedicado aos modulos cabeados, recheada de novidades e facilidades. Leia a documentação!<br>
+                <a href="https://docs.google.com/document/d/1o5rdJOgdNMiPCrcL_SZwlcc9PmxuDPQhE6hfp9Fl_Rw/edit?usp=sharing">📃Documentação</a><br>
+                <a href="https://youtu.be/VarwNgHsNf0">📺 Como configurar</a><br/>
+                <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Drivers/ControlArt%20ModulosCabeados%20V0.92.rtidriver">📥Modulos Cabeados Versão Beta 0.92</a><br>
+                <br>
+                <span style="color:green"><em>💵 Valor R$250,00 💵</em></span>
+            </p>
+        </div>
 
 
-    <!--/DKTech.html)-->
-    <div class="container">
-        <h1 id="-a-name-dktech-a-dktech-lck12840-">
-            <a name="dktech"></a>DKTech-LCK12840 💡
-        </h1>
-        <hr>
-        <p>
-            <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Drivers/DKTech-LCK12840%20v1.4.rtidriver">
-                <img src="./Images/DKTechLCK12840.png" alt="|250">
-            </a>
-        </p>
-        <p>Driver de controle para mdulo LCK12840.<br>
-            <a href="https://docs.google.com/document/d/19honP19Lr53zx3skiPBnw4x9LjMl6UPIb58FCMRGdvk/edit?usp=sharing">📃 Documentação</a><br>
-            <a href="https://youtu.be/pH81fFsw0GM">📺 Como configurar</a><br>
-            <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Exemplos/DKTECH.apex">👨‍💻 Exemplo</a><br>
-            <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Drivers/DKTech-LCK12840%20v1.4.rtidriver">📥 Versão 1.4</a><br>
-            <span style="color:green"><em>💵 Valor R$250,00 💵</em></span>
-        </p>
-    </div>
+        <!--/DKTech.html)-->
+        <div class="container">
+            <h1 id="-a-name-dktech-a-dktech-lck12840-">
+                <a name="dktech"></a>DKTech-LCK12840 💡
+            </h1>
+            <hr>
+            <p>
+                <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Drivers/DKTech-LCK12840%20v1.4.rtidriver">
+                    <img src="./Images/DKTechLCK12840.png" alt="|250">
+                </a>
+            </p>
+            <p>Driver de controle para mdulo LCK12840.<br>
+                <a href="https://docs.google.com/document/d/19honP19Lr53zx3skiPBnw4x9LjMl6UPIb58FCMRGdvk/edit?usp=sharing">📃 Documentação</a><br>
+                <a href="https://youtu.be/pH81fFsw0GM">📺 Como configurar</a><br>
+                <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Exemplos/DKTECH.apex">👨‍💻 Exemplo</a><br>
+                <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Drivers/DKTech-LCK12840%20v1.4.rtidriver">📥 Versão 1.4</a><br>
+                <span style="color:green"><em>💵 Valor R$250,00 💵</em></span>
+            </p>
+        </div>
 
 
-    <!--/Embrace.html)-->
-    <div class="container">
-        <h1 id="-a-name-embrace-a-embrace-">
-            <a name="embrace"></a>Embrace 💡
-        </h1>
-        <hr>
-        <p>
-            <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Drivers/Embrace%20v1.3.rtidriver">
-                <img src="./Images/Embrace.png" alt="|250">
-            </a>
-        </p>
-        <p>Driver de controle para sistema Embrace de iluminação e cortinas/persianas.<br>
-            <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Documenta%C3%A7%C3%A3o/Embrace.pdf">📃 Documentação</a><br>
-            <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Exemplos/Embrace.apex">👨‍💻 Exemplo</a><br>
-            <a href="https://youtu.be/xKJ6B30fIFg">📺 Como configurar</a><br>
-            <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Drivers/Embrace%20v1.3.rtidriver">📥 Versão 1.3</a><br>
-            <span style="color:green"><em>💵 Valor R$500,00 💵</em></span>
-        </p>
-    </div>
+        <!--/Embrace.html)-->
+        <div class="container">
+            <h1 id="-a-name-embrace-a-embrace-">
+                <a name="embrace"></a>Embrace 💡
+            </h1>
+            <hr>
+            <p>
+                <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Drivers/Embrace%20v1.3.rtidriver">
+                    <img src="./Images/Embrace.png" alt="|250">
+                </a>
+            </p>
+            <p>Driver de controle para sistema Embrace de iluminação e cortinas/persianas.<br>
+                <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Documenta%C3%A7%C3%A3o/Embrace.pdf">📃 Documentação</a><br>
+                <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Exemplos/Embrace.apex">👨‍💻 Exemplo</a><br>
+                <a href="https://youtu.be/xKJ6B30fIFg">📺 Como configurar</a><br>
+                <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Drivers/Embrace%20v1.3.rtidriver">📥 Versão 1.3</a><br>
+                <span style="color:green"><em>💵 Valor R$500,00 💵</em></span>
+            </p>
+        </div>
+
+        
+        <!--/MolSmart.html)-->
+        <div class="container">
+            <h1 id="-a-name-molsmart-a-molsmart-">
+                <a name="molsmart"></a>MolSmart Iluminação💡
+            </h1>
+            <hr>
+            <p>
+                <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Drivers/MolSmart%20v1.8.rtidriver">
+                    <img src="./Images/MolSmart.png" alt="|250">
+                </a>
+            </p>
+            <p>Driver de controle para mdulos 6 Dimmer, 2ch, 4ch, 8ch, 16ch e 32ch.<br>
+                <a href="https://docs.google.com/document/d/1Uc_R1vktYjYXj1EV_bmM8lNKdLZ9OP9EYyhzkrWdU0I/edit">📃 Documentação</a><br>
+                <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Drivers/MolSmart%20v1.8.rtidriver">📥 Versão 1.8</a><br>
+                <span style="color:green"><em>💵 Valor R$250,00 💵</em></span>
+            </p>
+        </div>
+
+        <!--/MolSmart-IR-RF.html)-->
+        <div class="container">
+            <h1 id="-a-name-molsmart-gateway-a-molsmart-ir-rf-gateway-">
+                <a name="molsmart-gateway"></a>MolSmart IR-RF Gateway 🎛️
+            </h1>
+            <hr>
+            <p>
+                <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Drivers/MolSmart-IR-RF%20v1.0.rtidriver">
+                    <img src="./Images/MolSmart-IR-RF.png" alt="|250">
+                </a>
+            </p>
+            <p>Driver de controle para mdulos 8ch, 16ch e 32ch.<br>
+                <a href="https://docs.google.com/document/d/1b7Mc9g1LIBRFtNNa5y0bFOiQf-D8U5tjb-ljNRBEB1I/edit?usp=sharing">📃 Documentação</a><br>
+                <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Drivers/MolSmart-IR-RF%20v1.0.rtidriver">📥 Versão 1.0</a><br>
+                <span style="color:green"><em>💵 Valor R$200,00 💵</em></span>
+            </p>
+        </div>
+
+
+        <!--SoundSmart-->
+        <div class="container">
+            <h1 id="-a-name-soundsmart-a-soundsmart-">
+                <a name="soundsmart"></a>SoundSmart 📻
+            </h1>
+            <hr>
+            <p>
+                <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Drivers/SoundSmart%20v1.3.rtidriver">
+                    <img src="./Images/SoundSmart.png" alt="|250">
+                </a>
+            </p>
+            <p>Driver para Stream Players da marca SoundSmart. Feedback completo da musica em execução com capa do album.<br><br>
+                - Players compatíveis: <br>
+                <a href="http://www.soundsmartbr.com/product/ss-wa60/">&ensp; SS-WA60</a>, 
+                <a href="http://www.soundsmartbr.com/product/ss-sa20/">SS-SA20</a>, 
+                <a href="http://www.soundsmartbr.com/product/ss-se10/">SS-SE10</a> e
+                <a href="https://www.soundsmartbr.com/produto/ss-ss50/">SS-SS50</a><br><br>
+                <a href="https://docs.google.com/document/d/1pciuZfEHqn2dzkgGlxJSR2WIixGe8wfqAbReQSxgvaU/edit?usp=sharing">📃 Documentação</a><br>
+                <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Drivers/SoundSmart%20v1.3.rtidriver">📥 Versão 1.3</a><br>
+                <span style="color:green"><em>💵 Valor R$200,00 💵</em></span> 
+            </p>
+        </div>
+        
+        
+        <!--AudioCast-->
+        <div class="container">
+            <h1 id="-a-name-audiocast-a-audiocast-">
+                <a name="audiocast"></a>AudioCast 📻
+            </h1>
+            <hr>
+            <p>
+                <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Drivers/AudioCast%20v1.3.rtidriver">
+                    <img  src="./Images/AudioCast.png" alt="|250">
+                </a>
+            </p>
+            <p>Driver para Stream Players baseados no chipset LinkPlay. Feedback completo da musica em execução com capa do album.<br><br>
+                Players compatíveis:</p>
+            <ul>
+                <li>AAT: 
+                    <a href="https://aataudio.com.br/audio-streaming/aat-audiocast-ac-1/">AC1</a>, 
+                    <a href="https://aataudio.com.br/audio-streaming/aat-audiocast-ac-2-g2/">AC2</a>, 
+                    <a href="https://aataudio.com.br/multirooms/aat-pmr-9/">PMR-9</a>, 
+                    <a href="https://aataudio.com.br/multirooms/aat-pmr-10/">PMR-10</a>, 
+                    <a href="https://aataudio.com.br/multirooms/aat-pmr-11/">PMR-11</a>, 
+                    <a href="https://aataudio.com.br/multirooms/aat-pmr-12/">PMR-12</a>, 
+                    <a href="https://aataudio.com.br/multirooms/aat-pmr-13/">PMR-13</a> 
+                </li>
+                <li>Arylic: 
+                    <a href="https://www.arylic.com/">Todos</a> 
+                </li>
+                <li>AudioCast: 
+                    <a href="https://audiocast.io/">M5</a> 
+                </li>
+                <li>Frahm: 
+                    <a href="https://frahm.com.br/produto/amplificador-premium-hsi-wifi-hdmi-160-2/">HSI 160.2</a> 
+                    <a href="https://frahm.com.br/produto/amplificador-premium-hsi-wifi-hdmi-60-2/">HSI 60.2</a> 
+                </li>
+                <li>iEast: 
+                    <a href="https://www.ieast.net/eng/products/soundstream/">SoundStream</a>, 
+                    <a href="https://www.ieast.net/eng/products/stream-pro/">Stream Pro</a>, 
+                    <a href="https://www.ieast.net/eng/products/streamamp-am160/">StreamAmp AM160</a>, 
+                    <a href="https://www.ieast.net/eng/products/streamamp-amp-i50b/">StreamAmp Amp i50B</a> 
+                </li>
+                <li>Loud: 
+                    <a href="https://www.loudaudio.com.br/produto/receptor-wsr-4-wifi">WSR-4 WiFi</a>, 
+                    <a href="https://www.loudaudio.com.br">APL-250 WSR</a> 
+                </li>
+                <li>Savage: 
+                    <a href="https://grsavage.com.br/stream-pro/">Stream Pro</a>, 
+                    <a href="https://grsavage.com.br/linha-spl-wifi/">SPLwifi</a> 
+                </li>
+            </ul>
+            <p>
+                <a href="https://docs.google.com/document/d/1bNvperJxdq1a7T6HVSVDgoJeTcgbKZcmRUQZ6gdQHC8/edit?usp=sharing">📃 Documentação</a><br>
+                <a  href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Drivers/AudioCast%20v1.3.rtidriver">📥 Versão 1.3</a><br>
+                <span style="color:green"><em>💵 Valor R$200,00 💵</em></span> 
+            </p>
+        </div>
+        
+        
+        <!--AAT PWC 8-->
+        <div class="container">
+            <h1 id="-a-name-pwc-a-aat-pwc-8-">
+                <a name="pwc"></a>AAT PWC-8 🔌⚡
+            </h1>
+            <hr>
+            <p>
+                <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Drivers/AAT%20PWC-8%20v1.0.rtidriver">
+                    <img src="./Images/PWC-8.png" alt="|250">
+                </a>
+            </p>
+            <p>Driver para condicionador de energia AAT PWC-8.<br>
+                <a href="https://docs.google.com/document/d/1r4WdChX-ZMmmGgS-J_2r_HDn2xEoQEFFcUUOUas_vhE/edit?usp=sharing">📃 Documentação</a><br>
+                <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Exemplos/PWC-8.apex">👨‍💻 Exemplo</a><br>
+                <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Drivers/AAT%20PWC-8%20v1.0.rtidriver">📥 Versão 1.0</a><br>
+                <span style="color:green"><em>💵 Valor R$100,00 💵</em></span>
+            </p>
+        </div>
+
+
+        <!--AlamoPiso Termico-->
+        <div class="container">
+            <h1 id="-a-name-alamo-a-lamo-piso-t-rmico-">
+                <a name="alamo"></a>Álamo Piso Térmico 🌡️♨️
+            </h1>
+            <hr>
+            <p>
+                <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Drivers/AlamoPisoTermico%20v1.1.rtidriver">
+                    <img
+                    src="./Images/Alamo.png" alt="|250">
+                </a>
+            </p>
+            <p>Driver para termostato Wi-Fi e gateway de piso térmico Álamo:<br>
+                <a href="https://docs.google.com/document/d/1w2Y-AxJLKYATaiMYrAvIOrqTVScz7efDvLcBRqgn0FQ/edit?usp=sharing">📃 Documentação</a><br>
+                <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Drivers/AlamoPisoTermico%20v1.1.rtidriver">📥 Versão 1.1</a><br>
+                <span style="color:green"><em>💵 Valor R$200,00 💵</em></span> </p>
+        </div>
+        
+        
+        <!--/ControliD.html)-->
+        <div class="container">
+            <h1 id="amcp">
+                <a name="controlid"></a>Control iD 👍📸
+            </h1>
+            <hr>
+            <p>
+                <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Drivers/Control_ID%20v1.2.rtidriver">
+                    <img src="./Images/ControlId.png" alt="|250">
+                </a>
+            </p>
+            <p>Driver de controle para leitores biometricos e faciais / controle de acesso.<br>
+                <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Documenta%C3%A7%C3%A3o/Control%20iD.pdf">📃 Documentação</a><br><a href="https://youtu.be/UwRdSBLR4gc">📺 Funcionamento</a><br>
+                <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Exemplos/Sample%20Control%20ID.apex">👨‍💻 Exemplo</a><br>
+                <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Drivers/Control_ID%20v1.2.rtidriver">📥 Versão 1.2</a><br>
+                <span style="color:green"><em>💵 Valor R$200,00 💵</em></span> 
+            </p>
+        </div>
 
     
-    <!--/MolSmart.html)-->
-    <div class="container">
-        <h1 id="-a-name-molsmart-a-molsmart-">
-            <a name="molsmart"></a>MolSmart 💡
-        </h1>
-        <hr>
-        <p>
-            <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Drivers/MolSmart%20v1.8.rtidriver">
-                <img src="./Images/MolSmart.png" alt="|250">
-            </a>
-        </p>
-        <p>Driver de controle para mdulos 6 Dimmer, 2ch, 4ch, 8ch, 16ch e 32ch.<br>
-            <a href="https://docs.google.com/document/d/1Uc_R1vktYjYXj1EV_bmM8lNKdLZ9OP9EYyhzkrWdU0I/edit">📃 Documentação</a><br>
-            <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Drivers/MolSmart%20v1.8.rtidriver">📥 Versão 1.8</a><br>
-            <span style="color:green"><em>💵 Valor R$250,00 💵</em></span>
-        </p>
-    </div>
-
-    <!--/MolSmart-IR-RF.html)-->
-    <div class="container">
-        <h1 id="-a-name-molsmart-gateway-a-molsmart-ir-rf-gateway-">
-            <a name="molsmart-gateway"></a>MolSmart IR-RF Gateway 🎛️
-        </h1>
-        <hr>
-        <p>
-            <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Drivers/MolSmart-IR-RF%20v1.0.rtidriver">
-                <img src="./Images/MolSmart-IR-RF.png" alt="|250">
-            </a>
-        </p>
-        <p>Driver de controle para mdulos 8ch, 16ch e 32ch.<br>
-            <a href="https://docs.google.com/document/d/1b7Mc9g1LIBRFtNNa5y0bFOiQf-D8U5tjb-ljNRBEB1I/edit?usp=sharing">📃 Documentação</a><br>
-            <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Drivers/MolSmart-IR-RF%20v1.0.rtidriver">📥 Versão 1.0</a><br>
-            <span style="color:green"><em>💵 Valor R$200,00 💵</em></span>
-        </p>
-    </div>
+        <!--<MuxLab Dante 4ch DSP>-->
+        <div class="container">
+            <h1 id="-a-name-muxlab-a-muxlab-500556-dante-4ch-dsp-">🆓 
+                <a name="muxlab"></a>MuxLab 500556 Dante 4ch DSP 🎚️🔈🎤
+            </h1>
+            <hr>
+            <p>
+                <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Drivers/4ch-DSP-500556%20v1.0.rtidriver">
+                    <img
+                    src="./Images/MuxLab500556.png" alt="|250">
+                </a>
+            </p>
+            <p>Driver para DSP Dante MuxLab 500556 <strong>Gratis</strong><br>
+                <a href="https://docs.google.com/document/d/1ks6p5pXixNV7KuGRrdY7Xj7ivNzlhZbrNiz5AvqvcQw/edit">📃 Documentação</a><br>
+                <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Drivers/4ch-DSP-500556%20v1.0.rtidriver">📥 Versão 1.0</a><br>
+                <span style="color:green"><em>💵 Valor R$0,00 Cortesia AvHub 💵</em></span></p>
+        </div>
 
 
-    <!--SoundSmart-->
-    <div class="container">
-        <h1 id="-a-name-soundsmart-a-soundsmart-">
-            <a name="soundsmart"></a>SoundSmart 📻
-        </h1>
-        <hr>
-        <p>
-            <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Drivers/SoundSmart%20v1.3.rtidriver">
-                <img src="./Images/SoundSmart.png" alt="|250">
-            </a>
-        </p>
-        <p>Driver para Stream Players da marca SoundSmart. Feedback completo da musica em execução com capa do album.<br><br>
-            - Players compatíveis: <br>
-            <a href="http://www.soundsmartbr.com/product/ss-wa60/">&ensp; SS-WA60</a>, 
-            <a href="http://www.soundsmartbr.com/product/ss-sa20/">SS-SA20</a>, 
-            <a href="http://www.soundsmartbr.com/product/ss-se10/">SS-SE10</a> e
-            <a href="https://www.soundsmartbr.com/produto/ss-ss50/">SS-SS50</a><br><br>
-            <a href="https://docs.google.com/document/d/1pciuZfEHqn2dzkgGlxJSR2WIixGe8wfqAbReQSxgvaU/edit?usp=sharing">📃 Documentação</a><br>
-            <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Drivers/SoundSmart%20v1.3.rtidriver">📥 Versão 1.3</a><br>
-            <span style="color:green"><em>💵 Valor R$200,00 💵</em></span> 
-        </p>
-    </div>
-    
-    
-    <!--AudioCast-->
-    <div class="container">
-        <h1 id="-a-name-audiocast-a-audiocast-">
-            <a name="audiocast"></a>AudioCast 📻
-        </h1>
-        <hr>
-        <p>
-            <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Drivers/AudioCast%20v1.3.rtidriver">
-                <img  src="./Images/AudioCast.png" alt="|250">
-            </a>
-        </p>
-        <p>Driver para Stream Players baseados no chipset LinkPlay. Feedback completo da musica em execução com capa do album.<br><br>
-            Players compatíveis:</p>
-        <ul>
-            <li>AAT: 
-                <a href="https://aataudio.com.br/audio-streaming/aat-audiocast-ac-1/">AC1</a>, 
-                <a href="https://aataudio.com.br/audio-streaming/aat-audiocast-ac-2-g2/">AC2</a>, 
-                <a href="https://aataudio.com.br/multirooms/aat-pmr-9/">PMR-9</a>, 
-                <a href="https://aataudio.com.br/multirooms/aat-pmr-10/">PMR-10</a>, 
-                <a href="https://aataudio.com.br/multirooms/aat-pmr-11/">PMR-11</a>, 
-                <a href="https://aataudio.com.br/multirooms/aat-pmr-12/">PMR-12</a>, 
-                <a href="https://aataudio.com.br/multirooms/aat-pmr-13/">PMR-13</a> 
-            </li>
-            <li>Arylic: 
-                <a href="https://www.arylic.com/">Todos</a> 
-            </li>
-            <li>AudioCast: 
-                <a href="https://audiocast.io/">M5</a> 
-            </li>
-            <li>Frahm: 
-                <a href="https://frahm.com.br/produto/amplificador-premium-hsi-wifi-hdmi-160-2/">HSI 160.2</a> 
-                <a href="https://frahm.com.br/produto/amplificador-premium-hsi-wifi-hdmi-60-2/">HSI 60.2</a> 
-            </li>
-            <li>iEast: 
-                <a href="https://www.ieast.net/eng/products/soundstream/">SoundStream</a>, 
-                <a href="https://www.ieast.net/eng/products/stream-pro/">Stream Pro</a>, 
-                <a href="https://www.ieast.net/eng/products/streamamp-am160/">StreamAmp AM160</a>, 
-                <a href="https://www.ieast.net/eng/products/streamamp-amp-i50b/">StreamAmp Amp i50B</a> 
-            </li>
-            <li>Loud: 
-                <a href="https://www.loudaudio.com.br/produto/receptor-wsr-4-wifi">WSR-4 WiFi</a>, 
-                <a href="https://www.loudaudio.com.br">APL-250 WSR</a> 
-            </li>
-            <li>Savage: 
-                <a href="https://grsavage.com.br/stream-pro/">Stream Pro</a>, 
-                <a href="https://grsavage.com.br/linha-spl-wifi/">SPLwifi</a> 
-            </li>
-        </ul>
-        <p>
-            <a href="https://docs.google.com/document/d/1bNvperJxdq1a7T6HVSVDgoJeTcgbKZcmRUQZ6gdQHC8/edit?usp=sharing">📃 Documentação</a><br>
-            <a  href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Drivers/AudioCast%20v1.3.rtidriver">📥 Versão 1.3</a><br>
-            <span style="color:green"><em>💵 Valor R$200,00 💵</em></span> 
-        </p>
-    </div>
-    
-    
-    <!--AAT PWC 8-->
-    <div class="container">
-        <h1 id="-a-name-pwc-a-aat-pwc-8-">
-            <a name="pwc"></a>AAT PWC-8 🔌⚡
-        </h1>
-        <hr>
-        <p>
-            <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Drivers/AAT%20PWC-8%20v1.0.rtidriver">
-                <img src="./Images/PWC-8.png" alt="|250">
-            </a>
-        </p>
-        <p>Driver para condicionador de energia AAT PWC-8.<br>
-            <a href="https://docs.google.com/document/d/1r4WdChX-ZMmmGgS-J_2r_HDn2xEoQEFFcUUOUas_vhE/edit?usp=sharing">📃 Documentação</a><br>
-            <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Exemplos/PWC-8.apex">👨‍💻 Exemplo</a><br>
-            <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Drivers/AAT%20PWC-8%20v1.0.rtidriver">📥 Versão 1.0</a><br>
-            <span style="color:green"><em>💵 Valor R$100,00 💵</em></span>
-        </p>
-    </div>
+        <!--/AAT.html)-->
+        <div class="container">
+            <h1 id="-a-name-pmr-a-aat-pmr-x-">🆓 
+                <a name="pmr"></a>AAT PMR-x 🎶
+            </h1>
+            <p>
+                <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Drivers/AAT%20PMR-x%20V1.07.rtidriver">
+                    <img src="./Images/PMR-x.png" alt="|250">
+                </a>
+            </p>
+            <p>Driver de controle para amplificadores multiroom AAT. <strong>Gratis</strong><br>
+                <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Documenta%C3%A7%C3%A3o/AAT%20PMR-x.pdf">📃 Documentação</a><br>
+                <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Drivers/AAT%20PMR-x%20V1.07.rtidriver">📥 Versão 1.07</a><br>
+                <span style="color:green"><em>💵 Valor R$0,00 💵</em></span> 
+            </p>
+        </div>
+        
+        
+        <!--/Absolute AudioBridge.html)-->
+        <div class="container">
+            <h1 id="-a-name-ab-a-absolute-audiobridge-">🆓 
+                <a name="ab"></a>Absolute AudioBridge 🎶
+            </h1>
+            <hr>
+            <p>
+                <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Drivers/Absolute%20AudioBridge%20V1.3.rtidriver">
+                    <img src="./Images/AudioBridge.png" alt="|250">
+                </a>
+            </p>
+            <p>Driver de controle para novos amplificadores multiroom Absolute linha AudioBridge. <strong>Gratis</strong><br>
+                <a href="https://docs.google.com/document/d/1DyFQLSvNJ0ZnrrAdLgHUKUPW-yaT2KXMNnsSeKvo_PQ/edit?usp=sharing">📃 Documentação</a><br>
+                <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Exemplos/AudioBridge.apex">👨‍💻 Exemplo</a><br>
+                <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Drivers/Absolute%20AudioBridge%20V1.3.rtidriver">📥 Versão 1.3</a><br>
+                <span style="color:green"><em>💵 Valor R$0,00 💵</em></span></p>
+        </div>
+        
+        
+        <!--/Absolute.html)-->
+        <div class="container">
+            <h1 id="-a-name-nx-a-absolute-nx-xx-">🆓 
+                <a name="nx"></a>Absolute NX-xx 🎶
+            </h1>
+            <hr>
+            <p>
+                <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Drivers/Absolute%20NX-xx%20v1.40.rtidriver">
+                    <img src="./Images/NXx.png" alt="|250">
+                </a>
+            </p>
+            <p>Driver de controle para amplificadores multiroom Absolute. <strong>Gratis</strong><br>
+                <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Documenta%C3%A7%C3%A3o/Absolute%20NX-x.pdf">📃 Documentação</a><br>
+                <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Exemplos/NX%20Multiroom.apex">👨‍💻 Exemplo</a><br>
+                <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Drivers/Absolute%20NX-xx%20v1.40.rtidriver">📥 Versão 1.40</a><br>
+                <span style="color:green"><em>💵 Valor R$0,00 💵</em></span> 
+            </p>
+        </div>
+        
+        
+        <!--/AMCP.html)-->
+        <div class="container">
+            <h1 id="-a-name-amcp-a-amcp-mr-mrx-">🆓 
+                <a name="amcp"></a>AMCP MR / MRX 🎶
+            </h1>
+            <hr>
+            <p>
+                <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Drivers/AMCP%20-%20MR-MRX%20Series%20v1.2.rtidriver">
+                    <img src="./Images/AMCP.png" alt="|250">
+                </a>
+            </p>
+            <p>Driver de controle para amplificadores multiroom AMCP. <strong>Gratis</strong><br>
+                <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Documenta%C3%A7%C3%A3o/AMCP%20MR%20MRX.pdf">📃 Documentação</a><br>
+                <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Drivers/AMCP%20-%20MR-MRX%20Series%20v1.2.rtidriver">📥 Versão 1.2</a><br>
+                <span style="color:green"><em>💵 Valor R$0,00 💵</em></span> </p>
+        </div>
+        
+        <!--/ControlArt Multiroom.html)--
+        <div class="container">
+            <h1 id="-a-name-controlartmr-"> 
+                <a name="controlartmr"></a>ControlArt Multiroom 🎶
+            </h1>
+            <hr>
+            <p>
+                <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Drivers/ControlArt%20Multiroom%20V1.0.rtidriver">
+                    <img src="./Images/ControlartMR.png" alt="|250">
+                </a>
+            </p>
+            <p>Driver de controle para amplificadores multiroom ControlArt. <strong>Gratis</strong><br>
+                <a href="https://docs.google.com/document/d/1cU4Qxbr2bGUVZcapLBh1qeq8qtOYr75kfFJlYk3Xjz8/edit?tab=t.0">📃 Documentação</a><br>
+                <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Drivers/ControlArt%20Multiroom%20V1.0.rtidriver">📥 Versão 1.0</a><br>
+                <span style="color:green"><em>💵 Valor R$50,00 💵</em></span> </p>
+        </div>
 
+        <!--/WaveOne.html)--
+        <div class="container">
+            <h1 id="-a-name-waveone-"> 
+                <a name="amcp"></a>WaveOne WMR 🎶
+            </h1>
+            <hr>
+            <p>
+                <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Drivers/Wave%20Multiroom%20V1.0.rtidriver">
+                    <img src="./Images/WaveOne.png" alt="|250">
+                </a>
+            </p>
+            <p>Driver de controle para amplificadores multiroom WaveOne. <strong>Gratis</strong><br>
+                <a href="https://docs.google.com/document/d/1itfYf0soHafv-H69Kc4iWDwYJB43QqZqq6Bno6W7tLA/edit?tab=t.0">📃 Documentação</a><br>
+                <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Drivers/Wave%20Multiroom%20V1.0.rtidriver">📥 Versão 1.0</a><br>
+                <span style="color:green"><em>💵 Valor R$50,00 💵</em></span> </p>
+        </div>
 
-    <!--AlamoPiso Termico-->
-    <div class="container">
-        <h1 id="-a-name-alamo-a-lamo-piso-t-rmico-">
-            <a name="alamo"></a>Álamo Piso Térmico 🌡️♨️
-        </h1>
-        <hr>
-        <p>
-            <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Drivers/AlamoPisoTermico%20v1.1.rtidriver">
-                <img
-                src="./Images/Alamo.png" alt="|250">
-            </a>
-        </p>
-        <p>Driver para termostato Wi-Fi e gateway de piso térmico Álamo:<br>
-            <a href="https://docs.google.com/document/d/1w2Y-AxJLKYATaiMYrAvIOrqTVScz7efDvLcBRqgn0FQ/edit?usp=sharing">📃 Documentação</a><br>
-            <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Drivers/AlamoPisoTermico%20v1.1.rtidriver">📥 Versão 1.1</a><br>
-            <span style="color:green"><em>💵 Valor R$200,00 💵</em></span> </p>
+        <!--/Xcene.html)-->
+        <div class="container">
+            <h1 id="-a-name-xcene-a-keypad-xcene-">🆓 
+                <a name="xcene"></a>Keypad Xcene ⌨️
+            </h1>
+            <hr>
+            <p>Driver de controle keypads Xcene. <strong>Gratis</strong><br>
+                <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Documenta%C3%A7%C3%A3o/Xcene%20Keypad.pdf">📃 Documentação</a><br><a href="https://youtu.be/aVJv_6ff9MQ">📺 Como configurar</a><br>
+                <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Drivers/Xcene%20Keypad%20V1.02.rtidriver">📥 Versão 1.02</a><br>
+                <span style="color:green"><em>💵 Valor R$0,00 💵</em></span> </p>
+        </div>
     </div>
-    
-    
-    <!--/ControliD.html)-->
-    <div class="container">
-        <h1 id="amcp">
-            <a name="controlid"></a>Control iD 👍📸
-        </h1>
-        <hr>
-        <p>
-            <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Drivers/Control_ID%20v1.2.rtidriver">
-                <img src="./Images/ControlId.png" alt="|250">
-            </a>
-        </p>
-        <p>Driver de controle para leitores biometricos e faciais / controle de acesso.<br>
-            <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Documenta%C3%A7%C3%A3o/Control%20iD.pdf">📃 Documentação</a><br><a href="https://youtu.be/UwRdSBLR4gc">📺 Funcionamento</a><br>
-            <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Exemplos/Sample%20Control%20ID.apex">👨‍💻 Exemplo</a><br>
-            <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Drivers/Control_ID%20v1.2.rtidriver">📥 Versão 1.2</a><br>
-            <span style="color:green"><em>💵 Valor R$200,00 💵</em></span> 
-        </p>
-    </div>
-
-    <h1 id="-center-drivers-gratuitos-center-">
-        <center>Drivers Gratuitos</center>
-    </h1>
-
-
-    <!--<MuxLab Dante 4ch DSP>-->
-    <div class="container">
-        <h1 id="-a-name-muxlab-a-muxlab-500556-dante-4ch-dsp-">🆓 
-            <a name="muxlab"></a>MuxLab 500556 Dante 4ch DSP 🎚️🔈🎤
-        </h1>
-        <hr>
-        <p>
-            <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Drivers/4ch-DSP-500556%20v1.0.rtidriver">
-                <img
-                src="./Images/MuxLab500556.png" alt="|250">
-            </a>
-        </p>
-        <p>Driver para DSP Dante MuxLab 500556 <strong>Gratis</strong><br>
-            <a href="https://docs.google.com/document/d/1ks6p5pXixNV7KuGRrdY7Xj7ivNzlhZbrNiz5AvqvcQw/edit">📃 Documentação</a><br>
-            <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Drivers/4ch-DSP-500556%20v1.0.rtidriver">📥 Versão 1.0</a><br>
-            <span style="color:green"><em>💵 Valor R$0,00 Cortesia AvHub 💵</em></span></p>
-    </div>
-
-
-    <!--/AAT.html)-->
-    <div class="container">
-        <h1 id="-a-name-pmr-a-aat-pmr-x-">🆓 
-            <a name="pmr"></a>AAT PMR-x 🎶
-        </h1>
-        <p>
-            <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Drivers/AAT%20PMR-x%20V1.07.rtidriver">
-                <img src="./Images/PMR-x.png" alt="|250">
-            </a>
-        </p>
-        <p>Driver de controle para amplificadores multiroom AAT. <strong>Gratis</strong><br>
-            <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Documenta%C3%A7%C3%A3o/AAT%20PMR-x.pdf">📃 Documentação</a><br>
-            <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Drivers/AAT%20PMR-x%20V1.07.rtidriver">📥 Versão 1.07</a><br>
-            <span style="color:green"><em>💵 Valor R$0,00 💵</em></span> 
-        </p>
-    </div>
-    
-    
-    <!--/Absolute AudioBridge.html)-->
-    <div class="container">
-        <h1 id="-a-name-ab-a-absolute-audiobridge-">🆓 
-            <a name="ab"></a>Absolute AudioBridge 🎶
-        </h1>
-        <hr>
-        <p>
-            <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Drivers/Absolute%20AudioBridge%20V1.3.rtidriver">
-                <img src="./Images/AudioBridge.png" alt="|250">
-            </a>
-        </p>
-        <p>Driver de controle para novos amplificadores multiroom Absolute linha AudioBridge. <strong>Gratis</strong><br>
-            <a href="https://docs.google.com/document/d/1DyFQLSvNJ0ZnrrAdLgHUKUPW-yaT2KXMNnsSeKvo_PQ/edit?usp=sharing">📃 Documentação</a><br>
-            <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Exemplos/AudioBridge.apex">👨‍💻 Exemplo</a><br>
-            <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Drivers/Absolute%20AudioBridge%20V1.3.rtidriver">📥 Versão 1.3</a><br>
-            <span style="color:green"><em>💵 Valor R$0,00 💵</em></span></p>
-    </div>
-    
-    
-    <!--/Absolute.html)-->
-    <div class="container">
-        <h1 id="-a-name-nx-a-absolute-nx-xx-">🆓 
-            <a name="nx"></a>Absolute NX-xx 🎶
-        </h1>
-        <hr>
-        <p>
-            <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Drivers/Absolute%20NX-xx%20v1.40.rtidriver">
-                <img src="./Images/NXx.png" alt="|250">
-            </a>
-        </p>
-        <p>Driver de controle para amplificadores multiroom Absolute. <strong>Gratis</strong><br>
-            <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Documenta%C3%A7%C3%A3o/Absolute%20NX-x.pdf">📃 Documentação</a><br>
-            <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Exemplos/NX%20Multiroom.apex">👨‍💻 Exemplo</a><br>
-            <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Drivers/Absolute%20NX-xx%20v1.40.rtidriver">📥 Versão 1.40</a><br>
-            <span style="color:green"><em>💵 Valor R$0,00 💵</em></span> 
-        </p>
-    </div>
-    
-    
-    <!--/AMCP.html)-->
-    <div class="container">
-        <h1 id="-a-name-amcp-a-amcp-mr-mrx-">🆓 
-            <a name="amcp"></a>AMCP MR / MRX 🎶
-        </h1>
-        <hr>
-        <p>
-            <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Drivers/AMCP%20-%20MR-MRX%20Series%20v1.2.rtidriver">
-                <img src="./Images/AMCP.png" alt="|250">
-            </a>
-        </p>
-        <p>Driver de controle para amplificadores multiroom AMCP. <strong>Gratis</strong><br>
-            <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Documenta%C3%A7%C3%A3o/AMCP%20MR%20MRX.pdf">📃 Documentação</a><br>
-            <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Drivers/AMCP%20-%20MR-MRX%20Series%20v1.2.rtidriver">📥 Versão 1.2</a><br>
-            <span style="color:green"><em>💵 Valor R$0,00 💵</em></span> </p>
-    </div>
-    
-    
-    <!--/Xcene.html)-->
-    <div class="container">
-        <h1 id="-a-name-xcene-a-keypad-xcene-">🆓 
-            <a name="xcene"></a>Keypad Xcene ⌨️
-        </h1>
-        <hr>
-        <p>Driver de controle keypads Xcene. <strong>Gratis</strong><br>
-            <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Documenta%C3%A7%C3%A3o/Xcene%20Keypad.pdf">📃 Documentação</a><br><a href="https://youtu.be/aVJv_6ff9MQ">📺 Como configurar</a><br>
-            <a href="https://github.com/Matioliflavio/RTI-Drivers/raw/master/Drivers/Xcene%20Keypad%20V1.02.rtidriver">📥 Versão 1.02</a><br>
-            <span style="color:green"><em>💵 Valor R$0,00 💵</em></span> </p>
-    </div>
-
-    <p>Para obter sua licença, requisitar um driver ou fazer uma doação (😍🍕), entre em contato
-        matioliflavio(@)gmail(.)com. </p>
-
+    <footer >
+        <div class="rodape">Para obter sua licença, requisitar um driver ou fazer uma doação (😍🍕), entre em contato
+        matioliflavio(@)gmail(.)com. </div>
+    </footer>
 </body>
 
 
