@@ -1,0 +1,54 @@
+body.dark-mode {
+                background-color: #181a1b;
+                color: #f3f3f3;
+                /* Mais claro */
+            }
+
+            body.dark-mode .container,
+            body.dark-mode .container2 {
+                background-color: #23272a;
+                border-color: #444;
+                color: #f3f3f3;
+                /* Mais claro */
+            }
+
+            body.dark-mode #navbar {
+                background-color: #23272a;
+                border-color: #444;
+            }
+
+            body.dark-mode a {
+                color: #7abaff;
+            }
+
+            body.dark-mode a:hover {
+                color: #ffb3ff;
+            }
+
+            body.dark-mode hr {
+                border-color: #444;
+            }
+
+            body.dark-mode em {
+                color: #b6ffb6;
+                /* Mais claro */
+            }
+
+            body.dark-mode button#toggle-dark {
+                background: #23272a;
+                color: #f3f3f3;
+                border-color: #444;
+            }
+
+            body.dark-mode h1,
+            body.dark-mode h2,
+            body.dark-mode h3,
+            body.dark-mode li,
+            body.dark-mode p,
+            body.dark-mode span,
+            body.dark-mode #navbar a,
+            body.dark-mode #navbar-right,
+            body.dark-mode .rodape {
+                color: #f3f3f3 !important;
+                /* Força textos claros */
+            }

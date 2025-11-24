@@ -28,7 +28,6 @@
             font-size: 1.5em;
             margin: 10px 0;
             padding-left: 10px;
-            
         }
 
         h3 {
@@ -36,7 +35,6 @@
             font-size: 1.5em;
             margin: 5px 0;
             text-align: center;
-            
         }
 
         .containerMaster {
@@ -50,24 +48,24 @@
 
         .container {
             width: 100%;
-            max-width: 360px; /* Adjust to your desired max width */
+            max-width: 360px;
             margin: 10px;
-            text-align: justify; /* Justify text inside the container */
-            padding: 5px; /* Add padding for spacing inside the container */
-            border: 3px solid #ccc; /* Frame border */
-            border-radius: 5px; /* Rounded corners for the frame */
-            background-color: #eee; /* Background color inside the frame */
+            text-align: justify;
+            padding: 5px;
+            border: 3px solid #ccc;
+            border-radius: 5px;
+            background-color: #eee;
         }
 
         .container2 {
             width: 70%;
-            max-width: 360px; /* Adjust to your desired max width */
+            max-width: 360px;
             margin: 20px auto;
-            text-align: justify; /* Justify text inside the container */
-            padding: 10px; /* Add padding for spacing inside the container */
-            border: 2px solid #ccc; /* Frame border */
-            border-radius: 5px; /* Rounded corners for the frame */
-            background-color: #fff; /* Background color inside the frame */
+            text-align: justify;
+            padding: 10px;
+            border: 2px solid #ccc;
+            border-radius: 5px;
+            background-color: #fff;
         }
 
         img {
@@ -78,7 +76,6 @@
             border-radius: 6px;
         }
 
-        /* List and Links */
         ul {
             list-style-type: none;
             padding-left: 20px;
@@ -92,7 +89,7 @@
         a {
             color: #0066cc;
             text-decoration: none;
-            font-weight: bold; 
+            font-weight: bold;
         }
 
         a:hover {
@@ -100,7 +97,6 @@
             color: #b500b2;
         }
 
-        /* Section Styles */
         hr {
             border: 2px solid #ccc;
             margin-top: 20px;
@@ -112,17 +108,14 @@
             font-size: 1.1em;
         }
 
-        /* Prices */
         span {
             font-size: 1.0em;
-            /*font-weight: bold;*/
         }
 
         em {
             color: green;
         }
 
-        /* Responsive Design */
         @media (max-width: 768px) {
             h1 {
                 font-size: 2em;
@@ -145,16 +138,15 @@
             border-top: none;
             border-left: none;
             border-right: none;
-            padding: 10px 10px; /* Large padding which will shrink on scroll (using JS) */
-            transition: 0.4s; /* Adds a transition effect when the padding is decreased */
-            position: fixed; /* Sticky/fixed navbar */
+            padding: 10px 10px;
+            transition: 0.4s;
+            position: fixed;
             width: 100%;
             height: fit-content;
-            top: 0; /* At the top */
+            top: 0;
             z-index: 99;
         }
 
-        /* Style the navbar links */
         #navbar a {
             float: left;
             color: black;
@@ -162,26 +154,81 @@
             padding: 10px;
         }
 
-        /* Display some links to the right */
         #navbar-right {
             float: center;
             padding: 10px;
         }
 
-        
+
+        @media (prefers-color-scheme: dark) {
+            body {
+                background-color: #181a1b;
+                color: #f3f3f3;
+                /* Mais claro */
+            }
+
+            body .container,
+            body .container2 {
+                background-color: #23272a;
+                border-color: #444;
+                color: #f3f3f3;
+                /* Mais claro */
+            }
+
+            body #navbar {
+                background-color: #23272a;
+                border-color: #444;
+            }
+
+            body a {
+                color: #7abaff;
+            }
+
+            body a:hover {
+                color: #ffb3ff;
+            }
+
+            body hr {
+                border-color: #444;
+            }
+
+            body em {
+                color: #b6ffb6;
+                /* Mais claro */
+            }
+
+            body button#toggle-dark {
+                background: #23272a;
+                color: #f3f3f3;
+                border-color: #444;
+            }
+
+            body h1,
+            body h2,
+            body h3,
+            body li,
+            body p,
+            body span,
+            body #navbar a,
+            body #navbar-right,
+            body .rodape {
+                color: #f3f3f3 !important;
+                /* Força textos claros */
+            }
+        }
     </style>
-   </head>
+</head>
 
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-KYG9Z1S72L"></script>
+<!--<script async src="https://www.googletagmanager.com/gtag/js?id=G-KYG9Z1S72L"></script>-->
 <script>
-    
+    /*
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', 'G-KYG9Z1S72L');
-
-    window.onscroll = function() {scrollFunction()};
+    */
+    window.onscroll = function () { scrollFunction() };
 
     function scrollFunction() {
         if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
@@ -197,24 +244,15 @@
         document.body.scrollTop = 0; // For Safari
         document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
     }
-    
 </script>
 
 <body>
-
-   <!--
-    <div class="header">
-        <p><img src="https://raw.githubusercontent.com/Matioliflavio/RTI-Drivers/master/Images/RTIDriver3rdParty.png" width="500"></p>
-
-        <h1 id="drivers">RTI Drivers 🇧🇷</h1>
-    </div>
-    -->
     <div id="navbar">
-        <a >
+        <a>
             <img id="logo" src="./Images/RTIDriver3rdParty.png" />
         </a>
         <div id="navbar-right">
-            <a  id="tx">RTI Drivers 🇧🇷</a>
+            <a id="tx">RTI Drivers 🇧🇷</a>
         </div>
     </div>
     <br><br><br><br><br><br><br><br><br>
@@ -250,8 +288,10 @@
     </div>
     <hr>
 
-    <!--/Controlart.html)-->
+    
     <div class="containerMaster">
+
+        <!--/Controlart.html)-->
         <div class="container">
             <h1 id="-a-name-controlart-a-controlart-">
                 <a name="controlart"></a>ControlArt 💡
@@ -259,21 +299,29 @@
             <hr>
             <p>
                 <a href="./Drivers/ControlArt%20v0.44.rtidriver">
-                    <img src="./Images/ControlArt.png" alt="250">
+                    <picture>
+                        <source srcset="./Images/ControlArt.png" media="(prefers-color-scheme: light)" />
+                        <source srcset="./Images/ControlArt_drk.png" media="(prefers-color-scheme: dark)" />
+                        <img src="./Images/ControlArt.png" alt="Description of what the image shows" />
+                    </picture>
                 </a>
             </p>
             <p>Driver de controle para mdulos sem fio xBus e Módulos cabeados.<br>
-                <a href="https://docs.google.com/document/d/1x7njGneO6W4oGCM__tr-wER8Rpgwkz-W38y99eORL5Y/edit?usp=sharing">📃Documentação</a><br>
+                <a
+                    href="https://docs.google.com/document/d/1x7njGneO6W4oGCM__tr-wER8Rpgwkz-W38y99eORL5Y/edit?usp=sharing">📃Documentação</a><br>
                 <a href="https://youtu.be/4LRs-2Ro52w">📺 Como configurar</a><br>
                 <a href="https://youtu.be/mfD7mNyFfBk">📺 Função Hold na entrada de pulso</a><br>
                 <a href="./Drivers/ControlArt%20v0.44.rtidriver">📥 Versão 0.44</a><br>
             </p>
-            <br/>
+            <br />
             <H3>ControlArt V2 *BETA*</H3>
-            <p>Nova versão do driver dedicado aos modulos cabeados, recheada de novidades e facilidades. Leia a documentação!<br>
-                <a href="https://docs.google.com/document/d/1o5rdJOgdNMiPCrcL_SZwlcc9PmxuDPQhE6hfp9Fl_Rw/edit?usp=sharing">📃Documentação</a><br>
-                <a href="https://youtu.be/VarwNgHsNf0">📺 Como configurar</a><br/>
-                <a href="./Drivers/ControlArt%20ModulosCabeados%20V0.92.rtidriver">📥Modulos Cabeados Versão Beta 0.92</a><br>
+            <p>Nova versão do driver dedicado aos modulos cabeados, recheada de novidades e facilidades. Leia a
+                documentação!<br>
+                <a
+                    href="https://docs.google.com/document/d/1o5rdJOgdNMiPCrcL_SZwlcc9PmxuDPQhE6hfp9Fl_Rw/edit?usp=sharing">📃Documentação</a><br>
+                <a href="https://youtu.be/VarwNgHsNf0">📺 Como configurar</a><br />
+                <a href="./Drivers/ControlArt%20ModulosCabeados%20V0.92.rtidriver">📥Modulos Cabeados Versão Beta
+                    0.92</a><br>
                 <br>
                 <span style="color:green"><em>💵 Valor R$250,00 💵</em></span>
             </p>
@@ -288,11 +336,17 @@
             <hr>
             <p>
                 <a href="./Drivers/DKTech-LCK12840%20v1.4.rtidriver">
-                    <img src="./Images/DKTechLCK12840.png" alt="|250">
+                    <picture>
+                        <source srcset="./Images/DKTechLCK12840.png" media="(prefers-color-scheme: light)" />
+                        <source srcset="./Images/DKTechLCK12840_drk.png" media="(prefers-color-scheme: dark)" />
+                        <img src="./Images/DKTechLCK12840.png" alt="Description of what the image shows" />
+                    </picture>
                 </a>
             </p>
             <p>Driver de controle para mdulo LCK12840.<br>
-                <a href="https://docs.google.com/document/d/19honP19Lr53zx3skiPBnw4x9LjMl6UPIb58FCMRGdvk/edit?usp=sharing">📃 Documentação</a><br>
+                <a
+                    href="https://docs.google.com/document/d/19honP19Lr53zx3skiPBnw4x9LjMl6UPIb58FCMRGdvk/edit?usp=sharing">📃
+                    Documentação</a><br>
                 <a href="https://youtu.be/pH81fFsw0GM">📺 Como configurar</a><br>
                 <a href="./Exemplos/DKTECH.apex">👨‍💻 Exemplo</a><br>
                 <a href="./Drivers/DKTech-LCK12840%20v1.4.rtidriver">📥 Versão 1.4</a><br>
@@ -309,7 +363,11 @@
             <hr>
             <p>
                 <a href="./Drivers/Embrace%20v1.3.rtidriver">
-                    <img src="./Images/Embrace.png" alt="|250">
+                    <picture>
+                        <source srcset="./Images/Embrace.png" media="(prefers-color-scheme: light)" />
+                        <source srcset="./Images/Embrace_drk.png" media="(prefers-color-scheme: dark)" />
+                        <img src="./Images/Embrace.png" alt="Description of what the image shows" />
+                    </picture>
                 </a>
             </p>
             <p>Driver de controle para sistema Embrace de iluminação e cortinas/persianas.<br>
@@ -321,7 +379,7 @@
             </p>
         </div>
 
-        
+
         <!--/MolSmart.html)-->
         <div class="container">
             <h1 id="-a-name-molsmart-a-molsmart-">
@@ -330,11 +388,16 @@
             <hr>
             <p>
                 <a href="./Drivers/MolSmart%20v1.8.rtidriver">
-                    <img src="./Images/MolSmart.png" alt="|250">
+                    <picture>
+                        <source srcset="./Images/MolSmart.png" media="(prefers-color-scheme: light)" />
+                        <source srcset="./Images/MolSmart_drk.png" media="(prefers-color-scheme: dark)" />
+                        <img src="./Images/MolSmart.png" alt="Description of what the image shows" />
+                    </picture>
                 </a>
             </p>
             <p>Driver de controle para mdulos 6 Dimmer, 2ch, 4ch, 8ch, 16ch e 32ch.<br>
-                <a href="https://docs.google.com/document/d/1Uc_R1vktYjYXj1EV_bmM8lNKdLZ9OP9EYyhzkrWdU0I/edit">📃 Documentação</a><br>
+                <a href="https://docs.google.com/document/d/1Uc_R1vktYjYXj1EV_bmM8lNKdLZ9OP9EYyhzkrWdU0I/edit">📃
+                    Documentação</a><br>
                 <a href="./Drivers/MolSmart%20v1.8.rtidriver">📥 Versão 1.8</a><br>
                 <span style="color:green"><em>💵 Valor R$250,00 💵</em></span>
             </p>
@@ -348,11 +411,17 @@
             <hr>
             <p>
                 <a href="./Drivers/MolSmart-IR-RF%20v1.0.rtidriver">
-                    <img src="./Images/MolSmart-IR-RF.png" alt="|250">
+                    <picture>
+                        <source srcset="./Images/MolSmart-IR-RF.png" media="(prefers-color-scheme: light)" />
+                        <source srcset="./Images/MolSmart-IR-RF_drk.png" media="(prefers-color-scheme: dark)" />
+                        <img src="./Images/MolSmart-IR-RF.png" alt="Description of what the image shows" />
+                    </picture>
                 </a>
             </p>
             <p>Driver de controle para mdulos 8ch, 16ch e 32ch.<br>
-                <a href="https://docs.google.com/document/d/1b7Mc9g1LIBRFtNNa5y0bFOiQf-D8U5tjb-ljNRBEB1I/edit?usp=sharing">📃 Documentação</a><br>
+                <a
+                    href="https://docs.google.com/document/d/1b7Mc9g1LIBRFtNNa5y0bFOiQf-D8U5tjb-ljNRBEB1I/edit?usp=sharing">📃
+                    Documentação</a><br>
                 <a href="./Drivers/MolSmart-IR-RF%20v1.0.rtidriver">📥 Versão 1.0</a><br>
                 <span style="color:green"><em>💵 Valor R$200,00 💵</em></span>
             </p>
@@ -367,22 +436,29 @@
             <hr>
             <p>
                 <a href="./Drivers/SoundSmart%20v1.3.rtidriver">
-                    <img src="./Images/SoundSmart.png" alt="|250">
+                    <picture>
+                        <source srcset="./Images/SoundSmart.png" media="(prefers-color-scheme: light)" />
+                        <source srcset="./Images/SoundSmart_drk.png" media="(prefers-color-scheme: dark)" />
+                        <img src="./Images/SoundSmart.png" alt="Description of what the image shows" />
+                    </picture>
                 </a>
             </p>
-            <p>Driver para Stream Players da marca SoundSmart. Feedback completo da musica em execução com capa do album.<br><br>
+            <p>Driver para Stream Players da marca SoundSmart. Feedback completo da musica em execução com capa do
+                album.<br><br>
                 - Players compatíveis: <br>
-                <a href="http://www.soundsmartbr.com/product/ss-wa60/">&ensp; SS-WA60</a>, 
-                <a href="http://www.soundsmartbr.com/product/ss-sa20/">SS-SA20</a>, 
+                <a href="http://www.soundsmartbr.com/product/ss-wa60/">&ensp; SS-WA60</a>,
+                <a href="http://www.soundsmartbr.com/product/ss-sa20/">SS-SA20</a>,
                 <a href="http://www.soundsmartbr.com/product/ss-se10/">SS-SE10</a> e
                 <a href="https://www.soundsmartbr.com/produto/ss-ss50/">SS-SS50</a><br><br>
-                <a href="https://docs.google.com/document/d/1pciuZfEHqn2dzkgGlxJSR2WIixGe8wfqAbReQSxgvaU/edit?usp=sharing">📃 Documentação</a><br>
+                <a
+                    href="https://docs.google.com/document/d/1pciuZfEHqn2dzkgGlxJSR2WIixGe8wfqAbReQSxgvaU/edit?usp=sharing">📃
+                    Documentação</a><br>
                 <a href="./Drivers/SoundSmart%20v1.3.rtidriver">📥 Versão 1.3</a><br>
-                <span style="color:green"><em>💵 Valor R$200,00 💵</em></span> 
+                <span style="color:green"><em>💵 Valor R$200,00 💵</em></span>
             </p>
         </div>
-        
-        
+
+
         <!--AudioCast-->
         <div class="container">
             <h1 id="-a-name-audiocast-a-audiocast-">
@@ -391,54 +467,61 @@
             <hr>
             <p>
                 <a href="./Drivers/AudioCast%20v1.3.rtidriver">
-                    <img  src="./Images/AudioCast.png" alt="|250">
+                    <picture>
+                        <source srcset="./Images/AudioCast.png" media="(prefers-color-scheme: light)" />
+                        <source srcset="./Images/AudioCast_drk.png" media="(prefers-color-scheme: dark)" />
+                        <img src="./Images/AudioCast.png" alt="Description of what the image shows" />
+                    </picture>
                 </a>
             </p>
-            <p>Driver para Stream Players baseados no chipset LinkPlay. Feedback completo da musica em execução com capa do album.<br><br>
+            <p>Driver para Stream Players baseados no chipset LinkPlay. Feedback completo da musica em execução com capa
+                do album.<br><br>
                 Players compatíveis:</p>
             <ul>
-                <li>AAT: 
-                    <a href="https://aataudio.com.br/audio-streaming/aat-audiocast-ac-1/">AC1</a>, 
-                    <a href="https://aataudio.com.br/audio-streaming/aat-audiocast-ac-2-g2/">AC2</a>, 
-                    <a href="https://aataudio.com.br/multirooms/aat-pmr-9/">PMR-9</a>, 
-                    <a href="https://aataudio.com.br/multirooms/aat-pmr-10/">PMR-10</a>, 
-                    <a href="https://aataudio.com.br/multirooms/aat-pmr-11/">PMR-11</a>, 
-                    <a href="https://aataudio.com.br/multirooms/aat-pmr-12/">PMR-12</a>, 
-                    <a href="https://aataudio.com.br/multirooms/aat-pmr-13/">PMR-13</a> 
+                <li>AAT:
+                    <a href="https://aataudio.com.br/audio-streaming/aat-audiocast-ac-1/">AC1</a>,
+                    <a href="https://aataudio.com.br/audio-streaming/aat-audiocast-ac-2-g2/">AC2</a>,
+                    <a href="https://aataudio.com.br/multirooms/aat-pmr-9/">PMR-9</a>,
+                    <a href="https://aataudio.com.br/multirooms/aat-pmr-10/">PMR-10</a>,
+                    <a href="https://aataudio.com.br/multirooms/aat-pmr-11/">PMR-11</a>,
+                    <a href="https://aataudio.com.br/multirooms/aat-pmr-12/">PMR-12</a>,
+                    <a href="https://aataudio.com.br/multirooms/aat-pmr-13/">PMR-13</a>
                 </li>
-                <li>Arylic: 
-                    <a href="https://www.arylic.com/">Todos</a> 
+                <li>Arylic:
+                    <a href="https://www.arylic.com/">Todos</a>
                 </li>
-                <li>AudioCast: 
-                    <a href="https://audiocast.io/">M5</a> 
+                <li>AudioCast:
+                    <a href="https://audiocast.io/">M5</a>
                 </li>
-                <li>Frahm: 
-                    <a href="https://frahm.com.br/produto/amplificador-premium-hsi-wifi-hdmi-160-2/">HSI 160.2</a> 
-                    <a href="https://frahm.com.br/produto/amplificador-premium-hsi-wifi-hdmi-60-2/">HSI 60.2</a> 
+                <li>Frahm:
+                    <a href="https://frahm.com.br/produto/amplificador-premium-hsi-wifi-hdmi-160-2/">HSI 160.2</a>
+                    <a href="https://frahm.com.br/produto/amplificador-premium-hsi-wifi-hdmi-60-2/">HSI 60.2</a>
                 </li>
-                <li>iEast: 
-                    <a href="https://www.ieast.net/eng/products/soundstream/">SoundStream</a>, 
-                    <a href="https://www.ieast.net/eng/products/stream-pro/">Stream Pro</a>, 
-                    <a href="https://www.ieast.net/eng/products/streamamp-am160/">StreamAmp AM160</a>, 
-                    <a href="https://www.ieast.net/eng/products/streamamp-amp-i50b/">StreamAmp Amp i50B</a> 
+                <li>iEast:
+                    <a href="https://www.ieast.net/eng/products/soundstream/">SoundStream</a>,
+                    <a href="https://www.ieast.net/eng/products/stream-pro/">Stream Pro</a>,
+                    <a href="https://www.ieast.net/eng/products/streamamp-am160/">StreamAmp AM160</a>,
+                    <a href="https://www.ieast.net/eng/products/streamamp-amp-i50b/">StreamAmp Amp i50B</a>
                 </li>
-                <li>Loud: 
-                    <a href="https://www.loudaudio.com.br/produto/receptor-wsr-4-wifi">WSR-4 WiFi</a>, 
-                    <a href="https://www.loudaudio.com.br">APL-250 WSR</a> 
+                <li>Loud:
+                    <a href="https://www.loudaudio.com.br/produto/receptor-wsr-4-wifi">WSR-4 WiFi</a>,
+                    <a href="https://www.loudaudio.com.br">APL-250 WSR</a>
                 </li>
-                <li>Savage: 
-                    <a href="https://grsavage.com.br/stream-pro/">Stream Pro</a>, 
-                    <a href="https://grsavage.com.br/linha-spl-wifi/">SPLwifi</a> 
+                <li>Savage:
+                    <a href="https://grsavage.com.br/stream-pro/">Stream Pro</a>,
+                    <a href="https://grsavage.com.br/linha-spl-wifi/">SPLwifi</a>
                 </li>
             </ul>
             <p>
-                <a href="https://docs.google.com/document/d/1bNvperJxdq1a7T6HVSVDgoJeTcgbKZcmRUQZ6gdQHC8/edit?usp=sharing">📃 Documentação</a><br>
-                <a  href="./Drivers/AudioCast%20v1.3.rtidriver">📥 Versão 1.3</a><br>
-                <span style="color:green"><em>💵 Valor R$200,00 💵</em></span> 
+                <a
+                    href="https://docs.google.com/document/d/1bNvperJxdq1a7T6HVSVDgoJeTcgbKZcmRUQZ6gdQHC8/edit?usp=sharing">📃
+                    Documentação</a><br>
+                <a href="./Drivers/AudioCast%20v1.3.rtidriver">📥 Versão 1.3</a><br>
+                <span style="color:green"><em>💵 Valor R$200,00 💵</em></span>
             </p>
         </div>
-        
-        
+
+
         <!--AAT PWC 8-->
         <div class="container">
             <h1 id="-a-name-pwc-a-aat-pwc-8-">
@@ -447,11 +530,17 @@
             <hr>
             <p>
                 <a href="./Drivers/AAT%20PWC-8%20v1.0.rtidriver">
-                    <img src="./Images/PWC-8.png" alt="|250">
+                    <picture>
+                        <source srcset="./Images/PWC-8.png" media="(prefers-color-scheme: light)" />
+                        <source srcset="./Images/PWC-8_drk.png" media="(prefers-color-scheme: dark)" />
+                        <img src="./Images/PWC-8.png" alt="Description of what the image shows" />
+                    </picture>
                 </a>
             </p>
             <p>Driver para condicionador de energia AAT PWC-8.<br>
-                <a href="https://docs.google.com/document/d/1r4WdChX-ZMmmGgS-J_2r_HDn2xEoQEFFcUUOUas_vhE/edit?usp=sharing">📃 Documentação</a><br>
+                <a
+                    href="https://docs.google.com/document/d/1r4WdChX-ZMmmGgS-J_2r_HDn2xEoQEFFcUUOUas_vhE/edit?usp=sharing">📃
+                    Documentação</a><br>
                 <a href="./Exemplos/PWC-8.apex">👨‍💻 Exemplo</a><br>
                 <a href="./Drivers/AAT%20PWC-8%20v1.0.rtidriver">📥 Versão 1.0</a><br>
                 <span style="color:green"><em>💵 Valor R$100,00 💵</em></span>
@@ -467,17 +556,23 @@
             <hr>
             <p>
                 <a href="./Drivers/AlamoPisoTermico%20v1.1.rtidriver">
-                    <img
-                    src="./Images/Alamo.png" alt="|250">
+                    <picture>
+                        <source srcset="./Images/Alamo.png" media="(prefers-color-scheme: light)" />
+                        <source srcset="./Images/Alamo_drk.png" media="(prefers-color-scheme: dark)" />
+                        <img src="./Images/Alamo.png" alt="Description of what the image shows" />
+                    </picture>
                 </a>
             </p>
             <p>Driver para termostato Wi-Fi e gateway de piso térmico Álamo:<br>
-                <a href="https://docs.google.com/document/d/1w2Y-AxJLKYATaiMYrAvIOrqTVScz7efDvLcBRqgn0FQ/edit?usp=sharing">📃 Documentação</a><br>
+                <a
+                    href="https://docs.google.com/document/d/1w2Y-AxJLKYATaiMYrAvIOrqTVScz7efDvLcBRqgn0FQ/edit?usp=sharing">📃
+                    Documentação</a><br>
                 <a href="./Drivers/AlamoPisoTermico%20v1.1.rtidriver">📥 Versão 1.1</a><br>
-                <span style="color:green"><em>💵 Valor R$200,00 💵</em></span> </p>
+                <span style="color:green"><em>💵 Valor R$200,00 💵</em></span>
+            </p>
         </div>
-        
-        
+
+
         <!--/ControliD.html)-->
         <div class="container">
             <h1 id="amcp">
@@ -486,185 +581,233 @@
             <hr>
             <p>
                 <a href="./Drivers/Control_ID%20v1.2.rtidriver">
-                    <img src="./Images/ControlId.png" alt="|250">
+                    <picture>
+                        <source srcset="./Images/ControlId.png" media="(prefers-color-scheme: light)" />
+                        <source srcset="./Images/ControlId_drk.png" media="(prefers-color-scheme: dark)" />
+                        <img src="./Images/ControlId.png" alt="Description of what the image shows" />
+                    </picture>
                 </a>
             </p>
             <p>Driver de controle para leitores biometricos e faciais / controle de acesso.<br>
-                <a href="./Documenta%C3%A7%C3%A3o/Control%20iD.pdf">📃 Documentação</a><br><a href="https://youtu.be/UwRdSBLR4gc">📺 Funcionamento</a><br>
+                <a href="./Documenta%C3%A7%C3%A3o/Control%20iD.pdf">📃 Documentação</a><br><a
+                    href="https://youtu.be/UwRdSBLR4gc">📺 Funcionamento</a><br>
                 <a href="./Exemplos/Sample%20Control%20ID.apex">👨‍💻 Exemplo</a><br>
                 <a href="./Drivers/Control_ID%20v1.2.rtidriver">📥 Versão 1.2</a><br>
-                <span style="color:green"><em>💵 Valor R$200,00 💵</em></span> 
+                <span style="color:green"><em>💵 Valor R$200,00 💵</em></span>
             </p>
         </div>
 
-    
+
         <!--<MuxLab Dante 4ch DSP>-->
         <div class="container">
-            <h1 id="-a-name-muxlab-a-muxlab-500556-dante-4ch-dsp-">🆓 
+            <h1 id="-a-name-muxlab-a-muxlab-500556-dante-4ch-dsp-">🆓
                 <a name="muxlab"></a>MuxLab 500556 Dante 4ch DSP 🎚️🔈🎤
             </h1>
             <hr>
             <p>
                 <a href="./Drivers/4ch-DSP-500556%20v1.0.rtidriver">
-                    <img
-                    src="./Images/MuxLab500556.png" alt="|250">
+                    <picture>
+                        <source srcset="./Images/MuxLab500556.png" media="(prefers-color-scheme: light)" />
+                        <source srcset="./Images/MuxLab500556_drk.png" media="(prefers-color-scheme: dark)" />
+                        <img src="./Images/MuxLab500556.png" alt="Description of what the image shows" />
+                    </picture>
                 </a>
             </p>
             <p>Driver para DSP Dante MuxLab 500556 <strong>Gratis</strong><br>
-                <a href="https://docs.google.com/document/d/1ks6p5pXixNV7KuGRrdY7Xj7ivNzlhZbrNiz5AvqvcQw/edit">📃 Documentação</a><br>
+                <a href="https://docs.google.com/document/d/1ks6p5pXixNV7KuGRrdY7Xj7ivNzlhZbrNiz5AvqvcQw/edit">📃
+                    Documentação</a><br>
                 <a href="./Drivers/4ch-DSP-500556%20v1.0.rtidriver">📥 Versão 1.0</a><br>
-                <span style="color:green"><em>💵 Valor R$0,00 Cortesia AvHub 💵</em></span></p>
+                <span style="color:green"><em>💵 Valor R$0,00 Cortesia AvHub 💵</em></span>
+            </p>
         </div>
 
 
         <!--/AAT.html)-->
         <div class="container">
-            <h1 id="-a-name-pmr-a-aat-pmr-x-">🆓 
+            <h1 id="-a-name-pmr-a-aat-pmr-x-">🆓
                 <a name="pmr"></a>AAT PMR-x 🎶
             </h1>
             <p>
                 <a href="./Drivers/AAT%20PMR-x%20V1.08.rtidriver">
-                    <img src="./Images/PMR-x.png" alt="|250">
+                    <picture>
+                        <source srcset="./Images/PMR-x.png" media="(prefers-color-scheme: light)" />
+                        <source srcset="./Images/PMR-x_drk.png" media="(prefers-color-scheme: dark)" />
+                        <img src="./Images/PMR-x.png" alt="Description of what the image shows" />
+                    </picture>
                 </a>
             </p>
             <p>Driver de controle para amplificadores multiroom AAT. <strong>Gratis</strong><br>
                 <a href="./Documenta%C3%A7%C3%A3o/AAT%20PMR-x.pdf">📃 Documentação</a><br>
                 <a href="./Drivers/AAT%20PMR-x%20V1.08.rtidriver">📥 Versão 1.07</a><br>
-                <span style="color:green"><em>💵 Valor R$0,00 💵</em></span> 
+                <span style="color:green"><em>💵 Valor R$0,00 💵</em></span>
             </p>
         </div>
-        
-        
+
+
         <!--/Absolute AudioBridge.html)-->
         <div class="container">
-            <h1 id="-a-name-ab-a-absolute-audiobridge-">🆓 
+            <h1 id="-a-name-ab-a-absolute-audiobridge-">🆓
                 <a name="ab"></a>Absolute AudioBridge 🎶
             </h1>
             <hr>
             <p>
                 <a href="./Drivers/Absolute%20AudioBridge%20V1.3.rtidriver">
-                    <img src="./Images/AudioBridge.png" alt="|250">
+                    <picture>
+                        <source srcset="./Images/AudioBridge.png" media="(prefers-color-scheme: light)" />
+                        <source srcset="./Images/AudioBridge_drk.png" media="(prefers-color-scheme: dark)" />
+                        <img src="./Images/AudioBridge.png" alt="Description of what the image shows" />
+                    </picture>
                 </a>
             </p>
-            <p>Driver de controle para novos amplificadores multiroom Absolute linha AudioBridge. <strong>Gratis</strong><br>
-                <a href="https://docs.google.com/document/d/1DyFQLSvNJ0ZnrrAdLgHUKUPW-yaT2KXMNnsSeKvo_PQ/edit?usp=sharing">📃 Documentação</a><br>
+            <p>Driver de controle para novos amplificadores multiroom Absolute linha AudioBridge.
+                <strong>Gratis</strong><br>
+                <a
+                    href="https://docs.google.com/document/d/1DyFQLSvNJ0ZnrrAdLgHUKUPW-yaT2KXMNnsSeKvo_PQ/edit?usp=sharing">📃
+                    Documentação</a><br>
                 <a href="./Exemplos/AudioBridge.apex">👨‍💻 Exemplo</a><br>
                 <a href="./Drivers/Absolute%20AudioBridge%20V1.3.rtidriver">📥 Versão 1.3</a><br>
-                <span style="color:green"><em>💵 Valor R$0,00 💵</em></span></p>
+                <span style="color:green"><em>💵 Valor R$0,00 💵</em></span>
+            </p>
         </div>
-        
-        
+
+
         <!--/Absolute.html)-->
         <div class="container">
-            <h1 id="-a-name-nx-a-absolute-nx-xx-">🆓 
+            <h1 id="-a-name-nx-a-absolute-nx-xx-">🆓
                 <a name="nx"></a>Absolute NX-xx 🎶
             </h1>
             <hr>
             <p>
                 <a href="./Drivers/Absolute%20NX-xx%20v1.40.rtidriver">
-                    <img src="./Images/NXx.png" alt="|250">
+                    <picture>
+                        <source srcset="./Images/NXx.png" media="(prefers-color-scheme: light)" />
+                        <source srcset="./Images/NXx_drk.png" media="(prefers-color-scheme: dark)" />
+                        <img src="./Images/NXx.png" alt="Description of what the image shows" />
+                    </picture>
                 </a>
             </p>
             <p>Driver de controle para amplificadores multiroom Absolute. <strong>Gratis</strong><br>
                 <a href="./Documenta%C3%A7%C3%A3o/Absolute%20NX-x.pdf">📃 Documentação</a><br>
                 <a href="./Exemplos/NX%20Multiroom.apex">👨‍💻 Exemplo</a><br>
                 <a href="./Drivers/Absolute%20NX-xx%20v1.40.rtidriver">📥 Versão 1.40</a><br>
-                <span style="color:green"><em>💵 Valor R$0,00 💵</em></span> 
+                <span style="color:green"><em>💵 Valor R$0,00 💵</em></span>
             </p>
         </div>
-        
-        
+
+
         <!--/AMCP.html)-->
         <div class="container">
-            <h1 id="-a-name-amcp-a-amcp-mr-mrx-">🆓 
+            <h1 id="-a-name-amcp-a-amcp-mr-mrx-">🆓
                 <a name="amcp"></a>AMCP MR / MRX 🎶
             </h1>
             <hr>
             <p>
                 <a href="./Drivers/AMCP%20-%20MR-MRX%20Series%20v1.2.rtidriver">
-                    <img src="./Images/AMCP.png" alt="|250">
+                    <picture>
+                        <source srcset="./Images/AMCP.png" media="(prefers-color-scheme: light)" />
+                        <source srcset="./Images/AMCP_drk.png" media="(prefers-color-scheme: dark)" />
+                        <img src="./Images/AMCP.png" alt="Description of what the image shows" />
+                    </picture>
                 </a>
             </p>
             <p>Driver de controle para amplificadores multiroom AMCP. <strong>Gratis</strong><br>
                 <a href="./Documenta%C3%A7%C3%A3o/AMCP%20MR%20MRX.pdf">📃 Documentação</a><br>
                 <a href="./Drivers/AMCP%20-%20MR-MRX%20Series%20v1.2.rtidriver">📥 Versão 1.2</a><br>
-                <span style="color:green"><em>💵 Valor R$0,00 💵</em></span> </p>
+                <span style="color:green"><em>💵 Valor R$0,00 💵</em></span>
+            </p>
         </div>
-        
+
         <!--/ControlArt Multiroom.html)-->
         <div class="container">
-            <h1 id="-a-name-controlartmr-">🆓 
+            <h1 id="-a-name-controlartmr-">🆓
                 <a name="controlartmr"></a>ControlArt Multiroom 🎶
             </h1>
             <hr>
             <p>
                 <a href="./Drivers/ControlArt%20Multiroom%20V1.0.rtidriver">
-                    <img src="./Images/ControlartMR.png" alt="|250">
+                    <picture>
+                        <source srcset="./Images/ControlartMR.png" media="(prefers-color-scheme: light)" />
+                        <source srcset="./Images/ControlartMR_drk.png" media="(prefers-color-scheme: dark)" />
+                        <img src="./Images/ControlartMR.png" alt="Description of what the image shows" />
+                    </picture>
                 </a>
             </p>
             <p>Driver de controle para amplificadores multiroom ControlArt.<br>
                 Para funcionar por mais de 30 minutos é necessario uma licença, solicite a sua gratuitamente!<br>
-                <a href="https://docs.google.com/document/d/1cU4Qxbr2bGUVZcapLBh1qeq8qtOYr75kfFJlYk3Xjz8/edit?tab=t.0">📃 Documentação</a><br>
+                <a href="https://docs.google.com/document/d/1cU4Qxbr2bGUVZcapLBh1qeq8qtOYr75kfFJlYk3Xjz8/edit?tab=t.0">📃
+                    Documentação</a><br>
                 <a href="./Exemplos/ControlArt_Multiroom_8_Zonas_Stereo.apex">👨‍💻 Exemplo</a><br>
                 <a href="./Drivers/ControlArt%20Multiroom%20V1.0.rtidriver">📥 Versão 1.0</a><br>
-                <span style="color:green"><em>💵 Valor R$0,00 💵</em></span> 
+                <span style="color:green"><em>💵 Valor R$0,00 💵</em></span>
             </p>
         </div>
 
         <!--/Savage Multiroom.html)-->
         <div class="container">
-            <h1 id="-a-name-savage-">🆓 
+            <h1 id="-a-name-savage-">🆓
                 <a name="savage"></a>Savage Multiroom 🎶
             </h1>
             <hr>
             <p>
                 <a href="./Drivers/SavageMultiroom%20V1.0.rtidriver">
-                    <img src="./Images/GRSavage.png" alt="|250">
+                    <picture>
+                        <source srcset="./Images/GRSavage.png" media="(prefers-color-scheme: light)" />
+                        <source srcset="./Images/GRSavage_drk.png" media="(prefers-color-scheme: dark)" />
+                        <img src="./Images/GRSavage.png" alt="Description of what the image shows" />
+                    </picture>
                 </a>
             </p>
             <p>Driver de controle para amplificadores multiroom Savage.<br>
                 Para funcionar por mais de 30 minutos é necessario uma licença, solicite a sua gratuitamente!<br>
-                <a href="https://docs.google.com/document/d/1aipqD8G-m-9C_wUacpDpE-SUYh4Cdgbkf5Xswn831k8/edit?tab=t.0">📃 Documentação</a><br>
+                <a href="https://docs.google.com/document/d/1aipqD8G-m-9C_wUacpDpE-SUYh4Cdgbkf5Xswn831k8/edit?tab=t.0">📃
+                    Documentação</a><br>
                 <a href="./Drivers/SavageMultiroom%20V1.0.rtidriver">📥 Versão 1.0</a><br>
-                <span style="color:green"><em>💵 Valor R$50,00 💵</em></span> 
+                <span style="color:green"><em>💵 Valor R$50,00 💵</em></span>
             </p>
         </div>
 
         <!--/WaveOne.html)-->
         <div class="container">
-            <h1 id="-a-name-waveone-"> 
+            <h1 id="-a-name-waveone-">
                 <a name="amcp"></a>WaveOne WMR🎶
             </h1>
             <hr>
             <p>
                 <a href="./Drivers/Wave%20Multiroom%20V1.0.rtidriver">
-                    <img src="./Images/WaveOne.png" alt="|250">
+                    <picture>
+                        <source srcset="./Images/WaveOne.png" media="(prefers-color-scheme: light)" />
+                        <source srcset="./Images/WaveOne_drk.png" media="(prefers-color-scheme: dark)" />
+                        <img src="./Images/WaveOne.png" alt="Description of what the image shows" />
+                    </picture>
                 </a>
             </p>
-            <p> Driver de controle para amplificadores multiroom WaveOne.<br> 
-                <a href="https://docs.google.com/document/d/1itfYf0soHafv-H69Kc4iWDwYJB43QqZqq6Bno6W7tLA/edit?tab=t.0">📃 Documentação</a><br>
+            <p> Driver de controle para amplificadores multiroom WaveOne.<br>
+                <a href="https://docs.google.com/document/d/1itfYf0soHafv-H69Kc4iWDwYJB43QqZqq6Bno6W7tLA/edit?tab=t.0">📃
+                    Documentação</a><br>
                 <a href="./Exemplos/Multiroom_WaveOne.apex">👨‍💻 Exemplo</a><br>
                 <a href="./Drivers/Wave%20Multiroom%20V1.0.rtidriver">📥 Versão 1.0</a><br>
-                <span style="color:green"><em>💵 Valor R$50,00 💵</em></span> 
+                <span style="color:green"><em>💵 Valor R$50,00 💵</em></span>
             </p>
         </div>
 
         <!--/Xcene.html)-->
         <div class="container">
-            <h1 id="-a-name-xcene-a-keypad-xcene-">🆓 
+            <h1 id="-a-name-xcene-a-keypad-xcene-">🆓
                 <a name="xcene"></a>Keypad Xcene ⌨️
             </h1>
             <hr>
             <p>Driver de controle keypads Xcene. <strong>Gratis</strong><br>
-                <a href="./Documenta%C3%A7%C3%A3o/Xcene%20Keypad.pdf">📃 Documentação</a><br><a href="https://youtu.be/aVJv_6ff9MQ">📺 Como configurar</a><br>
+                <a href="./Documenta%C3%A7%C3%A3o/Xcene%20Keypad.pdf">📃 Documentação</a><br><a
+                    href="https://youtu.be/aVJv_6ff9MQ">📺 Como configurar</a><br>
                 <a href="./Drivers/Xcene%20Keypad%20V1.02.rtidriver">📥 Versão 1.02</a><br>
-                <span style="color:green"><em>💵 Valor R$0,00 💵</em></span> </p>
+                <span style="color:green"><em>💵 Valor R$0,00 💵</em></span>
+            </p>
         </div>
     </div>
     <hr>
-    <footer >
+    <footer>
         <div class="rodape">Para obter sua licença, requisitar um driver ou fazer uma doação (😍🍕), entre em contato
-        matioliflavio(@)gmail(.)com. </div>
+            matioliflavio(@)gmail(.)com. </div>
     </footer>
 </body>
 
